@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary">#19769f</color>
+    <color name="colorPrimaryDark">#19769f</color>
+    <color name="colorAccent">@color/grayDarker</color>
+    <color name="almostBlack">#3e3e3e</color>
+    <color name="almostWhite">#F7F7F7</color>
+    <color name="grayBTN">#a2a2a2</color>
+    <color name="grayLight">#c4c4c4</color>
+    <color name="black20Percent">#14000000</color>
+    <color name="grayLightBG">#F7F7F7</color>
+
+
+    <color name="darkBlue">#19769f</color>
+    <color name="rightGreen">#30cda4</color>
+    <color name="lightGreen">#1dcf85</color>
+    <color name="greenBlue">#27cbcc</color>
+
+    <color name="darkLeftStatusBar">#135e7e</color>
+
+    <color name="green">#EA6262</color>
+    <color name="rightGreenStatusBar">#25a182</color>
+    <color name="greenBTN">#079da8</color>
+    <color name="greenBTNBorder">#0cbdca</color>
+    <color name="blue_start">#00a5c8</color>
+    <color name="blue_text">#3f9dc0</color>
+    <color name="blue_cadr">#25adbb</color>
+    <color name="green_end">#00987e</color>
+    <color name="gray">#dcdcdc</color>
+    <color name="grayLightest">#D3EBEBEB</color>
+    <color name="grayDarker">#7e7e7e</color>
+    <color name="grayMiddle">#686868</color>
+    <color name="grayDarkest">#4D4C4C</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparentshalow">#F2FFFFFF</color>
+    <color name="white">#fff</color>
+    <color name="white_blur">#6BFFFFFF</color>
+    <color name="white_blur_light">#36FFFFFF</color>
+    <color name="black">#000</color>
+    <color name="mtrl_textinput_default_box_stroke_color" tools:override="true">@color/grayLight
+    </color>
+    <color name="redError">#DF4141</color>
+    <color name="gold">#F7D410</color>
+    <color name="orange">#FF8747</color>
+    <color name="crimson">#f03461</color>
+    <color name="appRed">#e00c1e</color>
+    <color name="pink">#E45E68</color>
+
+    <color name="blue_new_left">#00B4DB</color>
+    <color name="blue_new_right">#0083B0</color>
+    <color name="violet_text_color">#6f7adf</color>
+
+    <color name="violet_left">#778af5</color>
+    <color name="violet_right">#5946dc</color>
+
+
+    <color name="blue_avr">#4b7ae3</color>
+
+    <color name="left_color">#00c6ff</color>
+    <color name="right_color">#0072ff</color>
+
+    <color name="startColor">#d80010</color>
+    <color name="endColor">#ce0314</color>
+    <color name="middleColor">#b10717</color>
+    <color name="lightColor">#E72626</color>
+
+
+    <color name="redDark">#e44d3b</color>
+    <color name="redLight">#fae4e0</color>
+    <color name="red10Percent">#14F13939</color>
+
+
+    <color name="greenDark">#00a5c7</color>
+    <color name="greenLight">#d7f1f6</color>
+
+    <color name="purpleDark">#673ab9</color>
+    <color name="purpleLight">#e7e2f3</color>
+
+
+    <!--android:foreground="?android:attr/selectableItemBackground"-->
+    <!--android:clickable="true"-->
+</resources>
