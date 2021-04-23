@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.daimajia.easing:library:2.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2280271c5603f211d08cb0e9999a3da7/jetified-library-2.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/695ea8f9b30dfaee9ef680386199eb35/jetified-library-2.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/782d45772d781fc61a9c8ffc2b018b10/jetified-library-2.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6abd5b5ece3c7e564d27a8779744b1ed/jetified-library-2.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/782d45772d781fc61a9c8ffc2b018b10/jetified-library-2.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/782d45772d781fc61a9c8ffc2b018b10/jetified-library-2.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.daimajia.easing/library/2.1/64ad4dd3ded9ca1177cd08cd03ba1178dcf00c0d/library-2.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.daimajia.easing/library/2.1/6eedef5e76f943544cd0ea7341cd5576a7d79127/library-2.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

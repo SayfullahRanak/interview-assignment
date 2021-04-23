@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.setel.assignment">
+    package="com.assignment.assignment">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.READ_CONTACTS" />
-    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
-    <uses-permission android:name="android.permission.CAMERA" />
-    <uses-feature android:name="android.hardware.camera" />
 
     <application
-        android:name="com.setel.assignment.utils.MyApplication"
+        android:name="com.assignment.assignment.utils.MyApplication"
         android:allowBackup="false"
         android:hardwareAccelerated="false"
         android:icon="@mipmap/ic_launcher"
@@ -25,7 +21,7 @@
         <uses-library android:name="org.apache.http.legacy" android:required="false"/>
 
         <activity
-            android:name="com.setel.assignment.ui.splash.SplashActivity"
+            android:name=".ui.splash.SplashActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:theme="@style/transparentBG">
@@ -40,19 +36,9 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
 
-                <data android:scheme="setel" />
+                <data android:scheme="zalora" />
             </intent-filter>
         </activity>
-
-        <activity
-            android:name="com.setel.assignment.ui.restaurants.RestaurantListActivity"
-            android:launchMode="singleTask"
-            android:screenOrientation="portrait" />
-
-        <activity
-            android:name="com.setel.assignment.ui.restaurants.RestaurantDetailActivity"
-            android:launchMode="singleTask"
-            android:screenOrientation="portrait" />
 
     </application>
 

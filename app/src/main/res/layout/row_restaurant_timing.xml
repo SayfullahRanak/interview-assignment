@@ -23,7 +23,7 @@
             android:layout_weight="8"
             app:cardCornerRadius="5dp">
 
-            <com.setel.utils.views.MyTextView
+            <com.assignment.utils.views.CustomTextView
                 android:id="@+id/weekday"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -47,7 +47,7 @@
             android:layout_weight="2"
             app:cardCornerRadius="5dp">
 
-            <com.setel.utils.views.MyTextView
+            <com.assignment.utils.views.CustomTextView
                 android:id="@+id/operatingTime"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

@@ -52,7 +52,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
 
-        <com.setel.utils.views.MyTextView
+        <com.assignment.utils.views.CustomTextView
             android:id="@+id/restaurantTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -66,7 +66,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <com.setel.utils.views.MyTextView
+        <com.assignment.utils.views.CustomTextView
             android:id="@+id/mobile"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -78,7 +78,7 @@
             app:layout_constraintTop_toBottomOf="@id/restaurantTitle" />
 
 
-        <com.setel.utils.views.MyTextView
+        <com.assignment.utils.views.CustomTextView
             android:id="@+id/versionName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -89,7 +89,7 @@
             app:layout_constraintStart_toStartOf="parent" />
 
 
-        <com.setel.utils.views.MyTextView
+        <com.assignment.utils.views.CustomTextView
             android:id="@+id/copyRight"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
