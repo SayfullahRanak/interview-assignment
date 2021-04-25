@@ -1,12 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.hanks:htextview-evaporate:0.1.6@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4ce562f86367a92687504215b5fd11dd/jetified-htextview-evaporate-0.1.6/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d23829b0796d1ac3c538f070f0e46396/jetified-htextview-evaporate-0.1.6/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d23829b0796d1ac3c538f070f0e46396/jetified-htextview-evaporate-0.1.6/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/beffd3420c3b58b569568de3d959c001/jetified-htextview-evaporate-0.1.6/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/03823494ff472e7591d3bac98607920f/jetified-htextview-evaporate-0.1.6/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/beffd3420c3b58b569568de3d959c001/jetified-htextview-evaporate-0.1.6/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/beffd3420c3b58b569568de3d959c001/jetified-htextview-evaporate-0.1.6/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d23829b0796d1ac3c538f070f0e46396/jetified-htextview-evaporate-0.1.6/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hanks/htextview-evaporate/0.1.6/fb6ad7db216abe866d09e427d7327c40b2d12ffa/htextview-evaporate-0.1.6-javadoc.jar!/" />

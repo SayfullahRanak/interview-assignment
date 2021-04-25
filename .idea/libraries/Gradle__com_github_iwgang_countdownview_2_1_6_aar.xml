@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.iwgang:countdownview:2.1.6@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2ae4b2f04ebfc1410e8586e35a3baf19/jetified-countdownview-2.1.6/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2ae4b2f04ebfc1410e8586e35a3baf19/jetified-countdownview-2.1.6/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2ae4b2f04ebfc1410e8586e35a3baf19/jetified-countdownview-2.1.6/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ed2018b6c44fdf66a97efbd94300d1b1/jetified-countdownview-2.1.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ed2018b6c44fdf66a97efbd94300d1b1/jetified-countdownview-2.1.6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ed2018b6c44fdf66a97efbd94300d1b1/jetified-countdownview-2.1.6/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.iwgang/countdownview/2.1.6/67aa20f41cececcbec7f3dbac4c17cf006df95ff/countdownview-2.1.6-javadoc.jar!/" />

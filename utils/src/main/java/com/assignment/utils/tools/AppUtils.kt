@@ -1,23 +1,17 @@
 package com.assignment.utils.tools
 
+//import com.assignment.utils.listener.SingleOptionResponseListener
 import android.annotation.SuppressLint
 import android.app.Activity
-import android.app.AlertDialog
 import android.content.*
 import android.content.pm.PackageInfo
 import android.content.pm.PackageManager
-import android.graphics.drawable.Drawable
+import android.net.ConnectivityManager
+import android.net.NetworkInfo
 import android.net.Uri
 import android.provider.Settings
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
-import android.widget.TextView
-import androidx.appcompat.widget.AppCompatButton
-import androidx.appcompat.widget.AppCompatImageView
 import androidx.core.content.pm.PackageInfoCompat
 import com.assignment.utils.R
-//import com.assignment.utils.listener.SingleOptionResponseListener
 import com.tapadoo.alerter.Alerter
 import java.net.NetworkInterface
 import java.util.*
@@ -73,6 +67,24 @@ class AppUtils {
                     )
                 )
             }
+        }
+
+        fun checkInternetConnection(context: Context): Boolean {
+            val connectivity: ConnectivityManager = context
+                    .getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
+            if (connectivity == null) {
+                return false
+            } else {
+                val info: Array<NetworkInfo> = connectivity.getAllNetworkInfo()
+                if (info != null) {
+                    for (anInfo in info) {
+                        if (anInfo.getState() === NetworkInfo.State.CONNECTED) {
+                            return true
+                        }
+                    }
+                }
+            }
+            return false
         }
 
         fun openWhatsApp(activity: Activity, number: String) {

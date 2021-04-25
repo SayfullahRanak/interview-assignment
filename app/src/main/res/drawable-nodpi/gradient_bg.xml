@@ -10,7 +10,7 @@
 
     <gradient
         android:angle="180"
-        android:endColor="@color/colorPrimary"
-        android:startColor="@color/colorPrimaryDark" />
+        android:endColor="@color/white_blur"
+        android:startColor="@color/white_blur" />
 
 </shape>

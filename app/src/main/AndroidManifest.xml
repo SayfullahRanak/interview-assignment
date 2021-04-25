@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.assignment.assignment">
+    package="com.assignment.zalora">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name="com.assignment.assignment.utils.MyApplication"
+        android:name="com.assignment.zalora.utils.MyApplication"
         android:allowBackup="false"
         android:hardwareAccelerated="false"
         android:icon="@mipmap/ic_launcher"
@@ -21,7 +21,7 @@
         <uses-library android:name="org.apache.http.legacy" android:required="false"/>
 
         <activity
-            android:name=".ui.splash.SplashActivity"
+            android:name=".ui.catlist.CatListActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:theme="@style/transparentBG">
