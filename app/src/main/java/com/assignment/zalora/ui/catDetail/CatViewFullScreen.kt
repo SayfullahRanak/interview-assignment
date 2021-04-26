@@ -47,15 +47,9 @@ class CatViewFullScreen : BaseActivity(false,true) {
     }
 
     fun loadUrl(url: String){
-//        Glide.with(this)
-//            .load(url)
-//            .placeholder(R.mipmap.ic_launcher)
-//            .into(catImageView)
 
         GlideApp.with(this)
                 .load(url)
-                .override(300,100)
-                .sizeMultiplier(0f)
                 .fitCenter()
                 .into(catImageView)
     }

@@ -1,5 +1,7 @@
 package com.assignment.zalora.utils
 
+import android.R.attr.maxHeight
+import android.R.attr.maxWidth
 import android.app.Activity
 import android.content.Context
 import android.graphics.Bitmap
@@ -57,23 +59,35 @@ class AppUtils @Inject constructor(
         /*
      * Resizing image size
      */
-        fun decodeFile(filePath: String?, WIDTH: Int, HIGHT: Int): Bitmap? {
-            try {
-                val f = File(filePath)
-                val o: BitmapFactory.Options = BitmapFactory.Options()
-                o.inJustDecodeBounds = true
-                BitmapFactory.decodeStream(FileInputStream(f), null, o)
-                var scale = 1
-                while (o.outWidth / scale / 2 >= WIDTH
-                    && o.outHeight / scale / 2 >= HIGHT
-                ) scale *= 2
-                val o2: BitmapFactory.Options = BitmapFactory.Options()
-                o2.inSampleSize = scale
-                return BitmapFactory.decodeStream(FileInputStream(f), null, o2)
-            } catch (e: FileNotFoundException) {
-                e.printStackTrace()
-            }
-            return null
+
+         fun scaleBitmap(bm: Bitmap): Bitmap? {
+            var bm = bm
+            var width = bm.width
+            var height = bm.height
+
+             val maxWidth = 100
+             val maxHeight = 100
+
+//            if (width > height) {
+//                // landscape
+//                val ratio = width.toFloat() / maxWidth
+//                width = maxWidth
+//                height = (height / ratio).toInt()
+//            } else if (height > width) {
+//                // portrait
+//                val ratio = height.toFloat() / maxHeight
+//                height = maxHeight
+//                width = (width / ratio).toInt()
+//            } else {
+//                // square
+//
+//            }
+             height = maxHeight
+             width = maxWidth
+
+
+            bm = Bitmap.createScaledBitmap(bm, width, height, true)
+            return bm
         }
 
 

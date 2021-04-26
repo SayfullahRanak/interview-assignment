@@ -2,7 +2,8 @@ package com.assignment.zalora.ui.catlist
 
 import android.content.Context
 import android.content.Intent
-import android.graphics.Color
+import android.graphics.Bitmap
+import androidx.core.content.ContextCompat.startActivity
 import androidx.hilt.lifecycle.ViewModelInject
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Transformations
@@ -14,6 +15,8 @@ import com.assignment.zalora.data.entities.Cat
 import com.assignment.zalora.data.repo.MainRepo
 import com.assignment.zalora.ui.catDetail.CatViewFullScreen
 import io.reactivex.disposables.CompositeDisposable
+import java.io.ByteArrayOutputStream
+
 
 class CatsViewModel @ViewModelInject constructor(private val mainRepo: MainRepo, private val context: Context): ViewModel() {
 
@@ -41,13 +44,13 @@ class CatsViewModel @ViewModelInject constructor(private val mainRepo: MainRepo,
         sourceFactory.catsDataSourceLiveData.value!!.retry()
     }
 
-    fun onClickImage(url : String){
+    fun onClickImage(cat: Cat){
 
         val intent = Intent(
             context,
             CatViewFullScreen::class.java
         )
-        intent.putExtra("url",url)
+        intent.putExtra("DETAILINFORMATION",cat)
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
         context.startActivity(
             intent

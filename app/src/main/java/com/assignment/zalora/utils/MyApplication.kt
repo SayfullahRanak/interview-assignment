@@ -6,15 +6,14 @@ import dagger.hilt.android.HiltAndroidApp
 @HiltAndroidApp
 class MyApplication : Application() {
 
-//    companion object {
-//        lateinit var appInstance: Application
-//    }
+    companion object {
+        lateinit var appInstance: Application
+    }
 //
-//    override fun onCreate() {
-//        super.onCreate()
-//        appInstance = this
-//        initModules()
-//    }
+    override fun onCreate() {
+        super.onCreate()
+        appInstance = this
+    }
 //
 //
 //    private fun initModules() {

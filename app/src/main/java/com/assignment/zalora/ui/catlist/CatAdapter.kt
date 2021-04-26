@@ -1,5 +1,6 @@
 package com.assignment.zalora.ui.catlist
 
+import android.graphics.Bitmap
 import android.view.ViewGroup
 import androidx.paging.PagedListAdapter
 import androidx.recyclerview.widget.DiffUtil
@@ -8,14 +9,14 @@ import com.assignment.utils.tools.NetworkState
 import com.assignment.zalora.R
 import com.assignment.zalora.data.entities.Cat
 
-class CatAdapter( private val onItemClick : (m: String) -> Unit) : PagedListAdapter<Cat,RecyclerView.ViewHolder>(UserDiffCallback) {
+class CatAdapter( private val onItemClick : (cat: Cat) -> Unit, private val columnSize: Int, private val onRetry : () -> Unit) : PagedListAdapter<Cat,RecyclerView.ViewHolder>(UserDiffCallback) {
 
     private var networkState: NetworkState? = null
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
         return when(viewType){
-            R.layout.item_cat -> CatViewHolder.create(parent,onItemClick)
-            R.layout.item_network_state -> NetworkStateViewHolder.create(parent)
+            R.layout.item_cat -> CatViewHolder.create(parent,onItemClick, columnSize)
+            R.layout.item_network_state -> NetworkStateViewHolder.create(parent,onRetry)
             else -> throw IllegalArgumentException("unknown view type")
         }
     }

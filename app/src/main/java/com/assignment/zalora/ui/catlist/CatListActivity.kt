@@ -18,6 +18,7 @@ import com.assignment.utils.tools.Status
 import com.assignment.zalora.R
 import com.assignment.zalora.data.entities.Cat
 import com.assignment.zalora.utils.AppUtils
+import com.assignment.zalora.utils.GridDecoration
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.activity_catlist.*
 import kotlinx.android.synthetic.main.item_network_state.*
@@ -57,11 +58,16 @@ class CatListActivity : BaseActivity(false,true) {
 
     private fun initAdapter() {
 
+
+        val columnSize =
+            ((AppUtils.getScreenWidth(this) - (AppUtils.NUM_OF_COLUMNS + 1) * 2) / AppUtils.NUM_OF_COLUMNS).toInt()
         val gridLayoutManager = GridLayoutManager(this, 3) as RecyclerView.LayoutManager?
-        catAdapter = CatAdapter({url -> catsViewModel.onClickImage(url)})
-
-
+        catAdapter = CatAdapter({cat -> catsViewModel.onClickImage(cat)},columnSize,{catsViewModel.retry()})
         catListView.layoutManager = gridLayoutManager
+        catListView.addItemDecoration(GridDecoration())
+
+        val columnWidth =
+            ((AppUtils.getScreenWidth(this) - (AppUtils.NUM_OF_COLUMNS + 1) * 2) / AppUtils.NUM_OF_COLUMNS).toInt()
 
         catListView.adapter = catAdapter
 
