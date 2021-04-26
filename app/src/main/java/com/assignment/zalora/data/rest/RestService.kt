@@ -1,6 +1,6 @@
 package com.assignment.zalora.data.rest
 
-import com.assignment.zalora.data.entities.cat
+import com.assignment.zalora.data.entities.Cat
 import retrofit2.http.GET
 import retrofit2.http.Query
 import io.reactivex.Single
@@ -21,6 +21,6 @@ interface RestService {
 
     @GET("v1/images/search?")
     fun getUsers(@Query("limit") perPageLimit: Long, @Query("page") perPage: Long,
-                 @Query("mime_types") mimneType: String, @Query("order") orderType: String): Single<List<cat>>
+                 @Query("mime_types") mimneType: String, @Query("order") orderType: String): Single<List<Cat>>
 
 }

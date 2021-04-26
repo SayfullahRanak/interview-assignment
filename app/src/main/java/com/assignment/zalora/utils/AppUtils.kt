@@ -1,129 +1,81 @@
 package com.assignment.zalora.utils
 
+import android.app.Activity
 import android.content.Context
-import java.util.*
+import android.graphics.Bitmap
+import android.graphics.BitmapFactory
+import android.graphics.Insets
+import android.os.Build
+import android.util.DisplayMetrics
+import android.view.WindowInsets
+import java.io.File
+import java.io.FileInputStream
+import java.io.FileNotFoundException
 import javax.inject.Inject
+
 
 class AppUtils @Inject constructor(
     private val context: Context
 ) {
     companion object {
 
-        fun checkTime(time: String, currentTimeFromServer: Long): Boolean {
+        // Number of columns of Grid View
+        const val NUM_OF_COLUMNS = 3
 
+        // Gridview image padding
+        const val GRID_PADDING = 8f // in dp
 
-            for (timeOption in getTimingList(time)){
+        fun getScreenHeight (activity: Activity) : Int{
 
-                try {
-                    // timeOption = Mon - Tue,sun 11:00 am-12:00 am
-//                    if(timeOption.contains(",".toRegex())){
-//                        val timesWithComa = timeOption.split(" ".toRegex(), 2).toTypedArray()[1]
-//
-//                    }else{
-//
-//                    }
-
-
-                    val times = timeOption.split(" ".toRegex(), 2).toTypedArray()[1]
-                    //times = 11:00 am - 12:00 am
-
-                    val timeWeekRange = timeOption.split(" ".toRegex()).toTypedArray()[0]
-                    //timeWeekRange = Mon - Sun
-
-                    val timeFromWeekDay = timeWeekRange.split("-".toRegex()).toTypedArray()[0].trim()
-                    //timeFromWeekDay = Mon
-
-                    val timeFromWithS = times.split("-".toRegex()).toTypedArray()[0]
-                    //timeFromWithS = 11:00 am
-                    val timeFromHourMinute = timeFromWithS.split(" ".toRegex()).toTypedArray()[0]
-                    // timeFromHourMinute = 11:00
-
-                    val timeFromHour = timeFromHourMinute.split(":".toRegex()).toTypedArray()[0]
-                    // timeFromHour = 11
-                    val timeFromMinute = timeFromHourMinute.split(":".toRegex()).toTypedArray()[1]
-                    // timeFromMinute = 00
-
-                    val timeFromStatus = timeFromWithS.split(" ".toRegex()).toTypedArray()[1]
-                    //timeFromStatus = am
-
-
-                    val timeUntilWeekDay = if(timeWeekRange.length > 1)  timeWeekRange.split("-".toRegex()).toTypedArray()[1].trim() else timeWeekRange.split("-".toRegex()).toTypedArray()[0].trim()
-                    //timeUntilWeekDay = Tue
-
-                    val timeUntilWithS = times.split("-".toRegex()).toTypedArray()[1]
-                    //timeUntil = 12:00 am
-                    val timeUntilHourMinute = timeFromWithS.split(" ".toRegex()).toTypedArray()[0]
-                    // timeUntilHourMinute = 12:00
-
-                    val timeUntilHour = timeUntilHourMinute.split(":".toRegex()).toTypedArray()[0]
-                    // timeUntilHour = 12
-                    val timeUntilMinute = timeUntilHourMinute.split(":".toRegex()).toTypedArray()[1]
-                    // timeUntilHour = 00
-                    val timeUntilStatus = timeFromWithS.split(" ".toRegex()).toTypedArray()[1]
-                    //timeFromStatus = am
-
-                    val fromTime = Calendar.getInstance()
-                    fromTime.set(Calendar.HOUR, Integer.valueOf(timeFromHour))
-                    fromTime.set(Calendar.MINUTE, Integer.valueOf(timeFromMinute))
-                    fromTime.set(
-                        Calendar.AM_PM,
-                        if (timeFromStatus.trim().equals("am")) Calendar.AM else Calendar.PM
-                    )
-                    fromTime.set(Calendar.DAY_OF_WEEK, getWeekMap(timeFromWeekDay))
-
-                    val toTime = Calendar.getInstance()
-                    toTime.set(Calendar.HOUR, Integer.valueOf(timeUntilHour))
-                    toTime.set(Calendar.MINUTE, Integer.valueOf(timeUntilMinute))
-                    toTime.set(
-                        Calendar.AM_PM,
-                        if (timeUntilWithS.trim().equals("am")) Calendar.AM else Calendar.PM
-                    )
-                    toTime.set(Calendar.DAY_OF_WEEK, getWeekMap(timeUntilWeekDay))
-
-                    val currentTime = Calendar.getInstance()
-                    
-                    if (currentTime.after(fromTime) && currentTime.before(toTime)) {
-                        return true
-                    }
-                }catch (e: Exception) {
-                    return false
-                }
+            return if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+                val windowMetrics =
+                    activity.windowManager.currentWindowMetrics
+                val insets: Insets = windowMetrics.windowInsets
+                    .getInsetsIgnoringVisibility(WindowInsets.Type.systemBars())
+                windowMetrics.bounds.width() - insets.left - insets.right
+            } else {
+                val displayMetrics = DisplayMetrics()
+                activity.windowManager.defaultDisplay.getMetrics(displayMetrics)
+                displayMetrics.widthPixels
             }
-
-            return false
         }
 
-
-        fun getTimingList(time: String) : Array<String>{
-            return time.split(" / ").toTypedArray()
-        }
-
-        fun getWeekMap(weekday: String):Int {
-            when (weekday.toUpperCase()) {
-                "SUN" -> {
-                    return 1
-                }
-                "MON" -> {
-                    return 2
-                }
-                "TUE" -> {
-                    return 3
-                }
-                "WED" -> {
-                    return 4
-                }
-                "THU" -> {
-                    return 5
-                }
-                "FRI" -> {
-                    return 6
-                }
-                "SAT" -> {
-                    return 7
-                }
+        fun getScreenWidth(activity: Activity) : Int{
+            return if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+                val windowMetrics =
+                    activity.windowManager.currentWindowMetrics
+                val insets: Insets = windowMetrics.windowInsets
+                    .getInsetsIgnoringVisibility(WindowInsets.Type.systemBars())
+                windowMetrics.bounds.height() - insets.top - insets.bottom
+            } else {
+                val displayMetrics = DisplayMetrics()
+                activity.windowManager.defaultDisplay.getMetrics(displayMetrics)
+                displayMetrics.heightPixels
             }
-            return 0
         }
+
+        /*
+     * Resizing image size
+     */
+        fun decodeFile(filePath: String?, WIDTH: Int, HIGHT: Int): Bitmap? {
+            try {
+                val f = File(filePath)
+                val o: BitmapFactory.Options = BitmapFactory.Options()
+                o.inJustDecodeBounds = true
+                BitmapFactory.decodeStream(FileInputStream(f), null, o)
+                var scale = 1
+                while (o.outWidth / scale / 2 >= WIDTH
+                    && o.outHeight / scale / 2 >= HIGHT
+                ) scale *= 2
+                val o2: BitmapFactory.Options = BitmapFactory.Options()
+                o2.inSampleSize = scale
+                return BitmapFactory.decodeStream(FileInputStream(f), null, o2)
+            } catch (e: FileNotFoundException) {
+                e.printStackTrace()
+            }
+            return null
+        }
+
 
     }
 

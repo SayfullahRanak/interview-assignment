@@ -3,7 +3,7 @@ package com.assignment.zalora.ui.catlist
 import androidx.lifecycle.MutableLiveData
 import androidx.paging.PageKeyedDataSource
 import com.assignment.utils.tools.NetworkState
-import com.assignment.zalora.data.entities.cat
+import com.assignment.zalora.data.entities.Cat
 import com.assignment.zalora.data.repo.MainRepo
 import io.reactivex.Completable
 import io.reactivex.android.schedulers.AndroidSchedulers
@@ -12,7 +12,7 @@ import io.reactivex.functions.Action
 import io.reactivex.schedulers.Schedulers
 
 class CatDataSource (private val mainRepo: MainRepo, private val compositeDisposable: CompositeDisposable)
-    : PageKeyedDataSource<Long, cat>() {
+    : PageKeyedDataSource<Long, Cat>() {
 
     val networkState = MutableLiveData<NetworkState>()
     val initialLoad = MutableLiveData<NetworkState>()
@@ -24,7 +24,7 @@ class CatDataSource (private val mainRepo: MainRepo, private val compositeDispos
 
     private var retryCompletable : Completable? = null
 
-    override fun loadInitial(params: LoadInitialParams<Long>, callback: LoadInitialCallback<Long, cat>) {
+    override fun loadInitial(params: LoadInitialParams<Long>, callback: LoadInitialCallback<Long, Cat>) {
 
         // update network states.
         // we also provide an initial load state to the listeners so that the UI can know when the
@@ -51,7 +51,7 @@ class CatDataSource (private val mainRepo: MainRepo, private val compositeDispos
         }))
     }
 
-    override fun loadAfter(params: LoadParams<Long>, callback: LoadCallback<Long, cat>) {
+    override fun loadAfter(params: LoadParams<Long>, callback: LoadCallback<Long, Cat>) {
 
         // set network value to loading.
         networkState.postValue(NetworkState.LOADING)
@@ -73,7 +73,7 @@ class CatDataSource (private val mainRepo: MainRepo, private val compositeDispos
         }))
     }
 
-    override fun loadBefore(params: LoadParams<Long>, callback: LoadCallback<Long, cat>) {
+    override fun loadBefore(params: LoadParams<Long>, callback: LoadCallback<Long, Cat>) {
         // ignored, since we only ever append to our initial load
     }
 

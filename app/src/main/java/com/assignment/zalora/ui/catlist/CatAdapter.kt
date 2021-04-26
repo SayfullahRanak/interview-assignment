@@ -6,16 +6,16 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.assignment.utils.tools.NetworkState
 import com.assignment.zalora.R
-import com.assignment.zalora.data.entities.cat
+import com.assignment.zalora.data.entities.Cat
 
-class CatAdapter(private val retryCallback: () -> Unit) : PagedListAdapter<cat,RecyclerView.ViewHolder>(UserDiffCallback) {
+class CatAdapter( private val onItemClick : (m: String) -> Unit) : PagedListAdapter<Cat,RecyclerView.ViewHolder>(UserDiffCallback) {
 
     private var networkState: NetworkState? = null
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
         return when(viewType){
-            R.layout.item_cat -> CatViewHolder.create(parent)
-            R.layout.item_network_state -> NetworkStateViewHolder.create(parent,retryCallback)
+            R.layout.item_cat -> CatViewHolder.create(parent,onItemClick)
+            R.layout.item_network_state -> NetworkStateViewHolder.create(parent)
             else -> throw IllegalArgumentException("unknown view type")
         }
     }
@@ -67,12 +67,12 @@ class CatAdapter(private val retryCallback: () -> Unit) : PagedListAdapter<cat,R
     }
 
     companion object {
-        val UserDiffCallback = object : DiffUtil.ItemCallback<cat>(){
-            override fun areItemsTheSame(oldItem: cat, newItem: cat): Boolean {
+        val UserDiffCallback = object : DiffUtil.ItemCallback<Cat>(){
+            override fun areItemsTheSame(oldItem: Cat, newItem: Cat): Boolean {
                 return oldItem.id == newItem.id
             }
 
-            override fun areContentsTheSame(oldItem: cat, newItem: cat): Boolean {
+            override fun areContentsTheSame(oldItem: Cat, newItem: Cat): Boolean {
                 return oldItem == newItem
             }
 

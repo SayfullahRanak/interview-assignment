@@ -10,12 +10,12 @@ import com.assignment.utils.tools.Status
 import com.assignment.zalora.R
 import kotlinx.android.synthetic.main.item_network_state.view.*
 
-class NetworkStateViewHolder(val view: View, private val retryCallback : () ->Unit) :RecyclerView.ViewHolder(view) {
+class NetworkStateViewHolder(val view: View) :RecyclerView.ViewHolder(view) {
 
     init {
-        itemView.retryLoadingButton.setOnClickListener {
-            retryCallback()
-        }
+//        itemView.retryLoadingButton.setOnClickListener {
+//            retryCallback()
+//        }
     }
 
     fun bindTo(networkState : NetworkState?){
@@ -30,10 +30,10 @@ class NetworkStateViewHolder(val view: View, private val retryCallback : () ->Un
     }
 
     companion object{
-        fun create(parent: ViewGroup,retryCallback: () -> Unit) : NetworkStateViewHolder{
+        fun create(parent: ViewGroup) : NetworkStateViewHolder{
             val layoutInflater = LayoutInflater.from(parent.context)
             val view = layoutInflater.inflate(R.layout.item_network_state, parent, false)
-            return NetworkStateViewHolder(view,retryCallback)
+            return NetworkStateViewHolder(view)
         }
     }
 }
