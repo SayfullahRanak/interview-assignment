@@ -1,9 +1,9 @@
-package com.assignment.zalora.ui.catlist
+package com.assignment.zalora.ui.catlist.datasource
 
 import androidx.lifecycle.MutableLiveData
 import androidx.paging.PageKeyedDataSource
 import com.assignment.utils.tools.NetworkState
-import com.assignment.zalora.data.entities.Cat
+import com.assignment.zalora.data.entities.CatModel
 import com.assignment.zalora.data.repo.MainRepo
 import io.reactivex.Completable
 import io.reactivex.android.schedulers.AndroidSchedulers
@@ -12,7 +12,7 @@ import io.reactivex.functions.Action
 import io.reactivex.schedulers.Schedulers
 
 class CatDataSource (private val mainRepo: MainRepo, private val compositeDisposable: CompositeDisposable)
-    : PageKeyedDataSource<Long, Cat>() {
+    : PageKeyedDataSource<Long, CatModel>() {
 
     val networkState = MutableLiveData<NetworkState>()
     val initialLoad = MutableLiveData<NetworkState>()
@@ -24,7 +24,7 @@ class CatDataSource (private val mainRepo: MainRepo, private val compositeDispos
 
     private var retryCompletable : Completable? = null
 
-    override fun loadInitial(params: LoadInitialParams<Long>, callback: LoadInitialCallback<Long, Cat>) {
+    override fun loadInitial(params: LoadInitialParams<Long>, callback: LoadInitialCallback<Long, CatModel>) {
 
         // update network states.
         // we also provide an initial load state to the listeners so that the UI can know when the
@@ -32,15 +32,15 @@ class CatDataSource (private val mainRepo: MainRepo, private val compositeDispos
         networkState.postValue(NetworkState.LOADING)
         initialLoad.postValue(NetworkState.LOADING)
 
-        //get the initial users from the api
+        //get the initial cats from the api
 
-        compositeDisposable.add(mainRepo.getUsers(params.requestedLoadSize.toLong(),sourceIndex).subscribe({ users ->
+        compositeDisposable.add(mainRepo.getUsers(params.requestedLoadSize.toLong(),sourceIndex).subscribe({ cats ->
 
             setRetry(null)
             networkState.postValue(NetworkState.LOADED)
             initialLoad.postValue(NetworkState.LOADED)
 
-            callback.onResult(users, null,++sourceIndex)
+            callback.onResult(cats, null,++sourceIndex)
         }, { throwable ->
             // keep a Completable for future retry
             setRetry(Action { loadInitial(params, callback) })
@@ -51,14 +51,14 @@ class CatDataSource (private val mainRepo: MainRepo, private val compositeDispos
         }))
     }
 
-    override fun loadAfter(params: LoadParams<Long>, callback: LoadCallback<Long, Cat>) {
+    override fun loadAfter(params: LoadParams<Long>, callback: LoadCallback<Long, CatModel>) {
 
         // set network value to loading.
         networkState.postValue(NetworkState.LOADING)
 
 
 
-        //get the users from the api after id
+        //get the cxats from the api after id
         compositeDisposable.add(mainRepo.getUsers(params.requestedLoadSize.toLong(),params.key).subscribe({ users ->
             // clear retry since last request succeeded
             setRetry(null)
@@ -73,7 +73,7 @@ class CatDataSource (private val mainRepo: MainRepo, private val compositeDispos
         }))
     }
 
-    override fun loadBefore(params: LoadParams<Long>, callback: LoadCallback<Long, Cat>) {
+    override fun loadBefore(params: LoadParams<Long>, callback: LoadCallback<Long, CatModel>) {
         // ignored, since we only ever append to our initial load
     }
 

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SETEL-ASSIGNMENT.iml" filepath="$PROJECT_DIR$/.idea/modules/SETEL-ASSIGNMENT.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SETEL-ASSIGNMENT.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SETEL-ASSIGNMENT.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/utils/SETEL-ASSIGNMENT.utils.iml" filepath="$PROJECT_DIR$/.idea/modules/utils/SETEL-ASSIGNMENT.utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ZALORA-ASSIGNMENT.iml" filepath="$PROJECT_DIR$/.idea/modules/ZALORA-ASSIGNMENT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ZALORA-ASSIGNMENT.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ZALORA-ASSIGNMENT.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/utils/ZALORA-ASSIGNMENT.utils.iml" filepath="$PROJECT_DIR$/.idea/modules/utils/ZALORA-ASSIGNMENT.utils.iml" />
     </modules>
   </component>
 </project>

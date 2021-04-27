@@ -51,6 +51,7 @@ class CatViewFullScreen : BaseActivity(false,true) {
         GlideApp.with(this)
                 .load(url)
                 .fitCenter()
+                .error(R.drawable.ic_broken_image)
                 .into(catImageView)
     }
 

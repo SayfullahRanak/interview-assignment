@@ -56,40 +56,6 @@ class AppUtils @Inject constructor(
             }
         }
 
-        /*
-     * Resizing image size
-     */
-
-         fun scaleBitmap(bm: Bitmap): Bitmap? {
-            var bm = bm
-            var width = bm.width
-            var height = bm.height
-
-             val maxWidth = 100
-             val maxHeight = 100
-
-//            if (width > height) {
-//                // landscape
-//                val ratio = width.toFloat() / maxWidth
-//                width = maxWidth
-//                height = (height / ratio).toInt()
-//            } else if (height > width) {
-//                // portrait
-//                val ratio = height.toFloat() / maxHeight
-//                height = maxHeight
-//                width = (width / ratio).toInt()
-//            } else {
-//                // square
-//
-//            }
-             height = maxHeight
-             width = maxWidth
-
-
-            bm = Bitmap.createScaledBitmap(bm, width, height, true)
-            return bm
-        }
-
 
     }
 

@@ -1,22 +1,30 @@
-package com.assignment.zalora.ui.catlist
+package com.assignment.zalora.ui.catlist.adapter
 
-import android.graphics.Bitmap
 import android.view.ViewGroup
 import androidx.paging.PagedListAdapter
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.assignment.utils.tools.NetworkState
 import com.assignment.zalora.R
-import com.assignment.zalora.data.entities.Cat
+import com.assignment.zalora.data.entities.CatModel
 
-class CatAdapter( private val onItemClick : (cat: Cat) -> Unit, private val columnSize: Int, private val onRetry : () -> Unit) : PagedListAdapter<Cat,RecyclerView.ViewHolder>(UserDiffCallback) {
+class CatAdapter(private val onItemClick : (catModel: CatModel) -> Unit, private val columnSize: Int, private val onRetry : () -> Unit) : PagedListAdapter<CatModel,RecyclerView.ViewHolder>(
+    UserDiffCallback
+) {
 
     private var networkState: NetworkState? = null
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
         return when(viewType){
-            R.layout.item_cat -> CatViewHolder.create(parent,onItemClick, columnSize)
-            R.layout.item_network_state -> NetworkStateViewHolder.create(parent,onRetry)
+            R.layout.item_cat -> CatViewHolder.create(
+                parent,
+                onItemClick,
+                columnSize
+            )
+            R.layout.item_network_state -> NetworkStateViewHolder.create(
+                parent,
+                onRetry
+            )
             else -> throw IllegalArgumentException("unknown view type")
         }
     }
@@ -24,7 +32,7 @@ class CatAdapter( private val onItemClick : (cat: Cat) -> Unit, private val colu
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
         when(getItemViewType(position)){
             R.layout.item_cat -> (holder as CatViewHolder).bindTo(getItem(position))
-            R.layout.item_network_state -> (holder as NetworkStateViewHolder).bindTo(networkState)
+//            R.layout.item_network_state -> (holder as NetworkStateViewHolder).bindTo(networkState)
         }
     }
 
@@ -68,12 +76,12 @@ class CatAdapter( private val onItemClick : (cat: Cat) -> Unit, private val colu
     }
 
     companion object {
-        val UserDiffCallback = object : DiffUtil.ItemCallback<Cat>(){
-            override fun areItemsTheSame(oldItem: Cat, newItem: Cat): Boolean {
+        val UserDiffCallback = object : DiffUtil.ItemCallback<CatModel>(){
+            override fun areItemsTheSame(oldItem: CatModel, newItem: CatModel): Boolean {
                 return oldItem.id == newItem.id
             }
 
-            override fun areContentsTheSame(oldItem: Cat, newItem: Cat): Boolean {
+            override fun areContentsTheSame(oldItem: CatModel, newItem: CatModel): Boolean {
                 return oldItem == newItem
             }
 

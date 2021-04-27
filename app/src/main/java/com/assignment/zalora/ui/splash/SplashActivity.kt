@@ -1,6 +1,7 @@
 package com.assignment.zalora.ui.splash
 
 import android.annotation.SuppressLint
+import android.content.Intent
 
 import android.os.Bundle
 import android.view.WindowManager
@@ -9,6 +10,7 @@ import com.assignment.zalora.BuildConfig
 import com.assignment.zalora.R
 
 import com.assignment.utils.base.BaseActivity
+import com.assignment.zalora.ui.catlist.CatListActivity
 
 import io.reactivex.disposables.Disposable
 import kotlinx.android.synthetic.main.activity_splash.*
@@ -35,13 +37,13 @@ class SplashActivity : BaseActivity(false,true) {
 
     override fun onResume() {
         super.onResume()
-        //check if user login
-//        startActivity(
-//            Intent(
-//                mActivity,
-//                RestaurantListActivity::class.java
-//            ).addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION)
-//        )
+
+        startActivity(
+            Intent(
+                mActivity,
+                CatListActivity::class.java
+            ).addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION)
+        )
         onBackPressed()
     }
 

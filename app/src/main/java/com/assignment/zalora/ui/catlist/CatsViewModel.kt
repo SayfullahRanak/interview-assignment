@@ -2,8 +2,6 @@ package com.assignment.zalora.ui.catlist
 
 import android.content.Context
 import android.content.Intent
-import android.graphics.Bitmap
-import androidx.core.content.ContextCompat.startActivity
 import androidx.hilt.lifecycle.ViewModelInject
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Transformations
@@ -11,16 +9,18 @@ import androidx.lifecycle.ViewModel
 import androidx.paging.LivePagedListBuilder
 import androidx.paging.PagedList
 import com.assignment.utils.tools.NetworkState
-import com.assignment.zalora.data.entities.Cat
+import com.assignment.zalora.R
+import com.assignment.zalora.data.entities.CatModel
 import com.assignment.zalora.data.repo.MainRepo
 import com.assignment.zalora.ui.catDetail.CatViewFullScreen
+import com.assignment.zalora.ui.catlist.datasource.CatDataSource
+import com.assignment.zalora.ui.catlist.datasource.CatsDataSourceFactory
 import io.reactivex.disposables.CompositeDisposable
-import java.io.ByteArrayOutputStream
 
 
 class CatsViewModel @ViewModelInject constructor(private val mainRepo: MainRepo, private val context: Context): ViewModel() {
 
-    var catList: LiveData<PagedList<Cat>>
+    var catModelList: LiveData<PagedList<CatModel>>
 
     private val compositeDisposable = CompositeDisposable()
 
@@ -28,8 +28,14 @@ class CatsViewModel @ViewModelInject constructor(private val mainRepo: MainRepo,
 
     private val sourceFactory: CatsDataSourceFactory
 
+
+
     init {
-        sourceFactory = CatsDataSourceFactory(compositeDisposable,mainRepo)
+        sourceFactory =
+            CatsDataSourceFactory(
+                compositeDisposable,
+                mainRepo
+            )
 
         val config = PagedList.Config.Builder()
             .setPageSize(pageSize)
@@ -37,20 +43,20 @@ class CatsViewModel @ViewModelInject constructor(private val mainRepo: MainRepo,
             .setEnablePlaceholders(false)
             .build()
 
-        catList = LivePagedListBuilder<Long,Cat>(sourceFactory,config).build()
+        catModelList = LivePagedListBuilder<Long,CatModel>(sourceFactory,config).build()
     }
 
     fun retry() {
         sourceFactory.catsDataSourceLiveData.value!!.retry()
     }
 
-    fun onClickImage(cat: Cat){
+    fun onClickImage(catModel: CatModel){
 
         val intent = Intent(
             context,
             CatViewFullScreen::class.java
         )
-        intent.putExtra("DETAILINFORMATION",cat)
+        intent.putExtra(context.getString(R.string.detailInformation),catModel)
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
         context.startActivity(
             intent
@@ -75,37 +81,4 @@ class CatsViewModel @ViewModelInject constructor(private val mainRepo: MainRepo,
         super.onCleared()
         compositeDisposable.dispose()
     }
-
-//    fun getItems(ctx: Context, columns: Int): LiveData<List<Cat>> {
-//        return Transformations.map(GalleryRepository().getResponse(ctx)) { r ->
-//            val list = ArrayList<Cat>()
-//            val row = ArrayList<Cat>()
-//            var rowRatios = 0f
-//            r!!.value!!.forEach { it: Result ->
-//                val imageRatio = it.width!! / it.height!!.toFloat()
-//                val item = Cat(
-//                    it.imageId as ItemId,
-//                    it.name!!,
-//                    Color.parseColor("#" + it.accentColor),
-//                    it.thumbnailUrl!!,
-//                    imageRatio
-//                )
-//                list.add(item)
-//                rowRatios += item.imageRatio
-//                if (rowRatios > 2f) {
-//                    var used = 0
-//                    row.forEach { it2: Item ->
-//                        it2.columns = ((columns * it2.imageRatio) / rowRatios).toInt()
-//                        used += it2.columns
-//                    }
-//                    item.columns = columns - used
-//                    row.clear()
-//                    rowRatios = 0f
-//                } else {
-//                    row.add(item)
-//                }
-//            }
-//            list
-//        }
-//    }
 }
