@@ -6,8 +6,9 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
 import com.assignment.zalora.data.entities.CatModel
+import com.assignment.zalora.data.entities.RemoteKeys
 
-@Database(version = 1, entities = [CatModel::class,RemoteKeys::class], exportSchema = false)
+@Database(version = 1, entities = [CatModel::class, RemoteKeys::class], exportSchema = false)
 @TypeConverters(Converter::class)
 abstract class AppDatabase : RoomDatabase() {
 

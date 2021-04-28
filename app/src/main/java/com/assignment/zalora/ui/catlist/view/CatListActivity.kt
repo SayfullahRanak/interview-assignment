@@ -49,7 +49,7 @@ class CatListActivity : BaseActivity(false,true) {
             }, getColumnSize())
 
         val loaderStateAdapter =
-            LoaderStateAdapter { catsViewModel.retry() }
+            LoaderStateAdapter { catAdapter.retry() }
         val catAdapterWithFooter = catAdapter.withLoadStateFooter(loaderStateAdapter)
 
         catListView.layoutManager = gridLayoutManager

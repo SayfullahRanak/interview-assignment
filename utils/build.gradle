@@ -116,10 +116,4 @@ dependencies {
     api "com.github.tamir7.contacts:contacts:1.1.7"
     api 'io.reactivex:rxandroid:1.2.1'
 
-    api 'me.dm7.barcodescanner:zxing:1.9.13'
-
-
-    // Qr code
-
-    implementation 'com.google.zxing:core:3.3.3'
 }

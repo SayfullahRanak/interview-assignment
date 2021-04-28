@@ -3,4 +3,6 @@
     <string name="error_in_loading">Error In Loading</string>
     <string name="retry">retry</string>
     <string name="detailInformation">DETAILINFORMATION</string>
+    <string name="catastrophic">CATastrophic</string>
+    <string name="catastrophic_subheader">he CATastrophic App is a simple app that shows cat images in a gallery mode</string>
 </resources>

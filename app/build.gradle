@@ -9,7 +9,7 @@ apply plugin: 'dagger.hilt.android.plugin'
 android {
 
     compileSdkVersion 30
-    buildToolsVersion "29.0.2"
+    buildToolsVersion "29.0.3"
     defaultConfig {
         applicationId "com.zalora.assignment"
         minSdkVersion 21

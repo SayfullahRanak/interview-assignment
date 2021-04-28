@@ -13,7 +13,6 @@ import android.provider.Settings
 import android.util.DisplayMetrics
 import androidx.core.content.pm.PackageInfoCompat
 import com.assignment.utils.R
-import com.tapadoo.alerter.Alerter
 import java.net.NetworkInterface
 import java.util.*
 
@@ -210,48 +209,19 @@ class Utils {
             }
         }
 
-        fun showAlert(
-            mActivity: Activity?,
-            title: String? = "",
-            msg: String?,
-            isError: Boolean = true
-        ) {
-            if (mActivity != null)
-                Alerter.create(mActivity)
-                    .setTitle(title ?: (if (isError) "Error" else ""))
-                    .setText(msg ?: "")
-                    .setDuration(8000)
-                    .setBackgroundColorRes((if (isError) R.color.orange else R.color.redError))
-                    .show()
-        }
-
-//        fun showPlainDialogBoxWithSingleOption(
-//            activity: Activity,
-//            titleText: String?,
-//            descriptionText: String?,
-//            iconImage: Drawable?,
-//            canDismiss: Boolean,
-//            responseListener: SingleOptionResponseListener
-//        ): AlertDialog? {
-//            val builder = AlertDialog.Builder(activity, R.style.CustomAlertDialog)
-//            val viewGroup = activity.findViewById<ViewGroup>(android.R.id.content)
-//            val dialogView: View = LayoutInflater.from(activity)
-//                .inflate(R.layout.custom_dialog_message_option, viewGroup, false)
-//            val buttonPositive: AppCompatButton = dialogView.findViewById(R.id.dialogOk)
-//            val buttonNegative: AppCompatButton = dialogView.findViewById(R.id.dialogCancel)
-//            buttonNegative.visibility = View.GONE
-//            val title = dialogView.findViewById<View>(R.id.title) as TextView
-//            title.text = titleText
-//            val description = dialogView.findViewById<View>(R.id.description) as TextView
-//            description.text = descriptionText
-//            val icon = dialogView.findViewById<View>(R.id.dIcon) as AppCompatImageView
-//            icon.setImageDrawable(iconImage)
-//            builder.setView(dialogView)
-//            val alertDialog = builder.create()
-//            buttonPositive.setOnClickListener { responseListener.positive(alertDialog) }
-//            if (!canDismiss) alertDialog.setCanceledOnTouchOutside(false)
-//            //        alertDialog.show();
-//            return alertDialog
+//        fun showAlert(
+//            mActivity: Activity?,
+//            title: String? = "",
+//            msg: String?,
+//            isError: Boolean = true
+//        ) {
+//            if (mActivity != null)
+//                Alerter.create(mActivity)
+//                    .setTitle(title ?: (if (isError) "Error" else ""))
+//                    .setText(msg ?: "")
+//                    .setDuration(8000)
+//                    .setBackgroundColorRes((if (isError) R.color.orange else R.color.redError))
+//                    .show()
 //        }
 
 

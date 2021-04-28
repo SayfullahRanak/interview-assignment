@@ -6,7 +6,7 @@ import androidx.paging.PagingState
 import androidx.paging.RemoteMediator
 import androidx.room.withTransaction
 import com.assignment.zalora.data.db.AppDatabase
-import com.assignment.zalora.data.db.RemoteKeys
+import com.assignment.zalora.data.entities.RemoteKeys
 import com.assignment.zalora.data.entities.CatModel
 import com.assignment.zalora.data.repo.MainRepo
 import com.assignment.zalora.data.datasource.CatImagesRepository.Companion.DEFAULT_PAGE_INDEX
@@ -46,7 +46,11 @@ class CatMediator(private val mainRepo: MainRepo, private val appDatabase: AppDa
                 val prevKey = if (page == DEFAULT_PAGE_INDEX) null else page - 1
                 val nextKey = if (isEndOfList) null else page + 1
                 val keys = response.map {
-                    RemoteKeys(repoId = it.id, prevKey = prevKey, nextKey = nextKey)
+                    RemoteKeys(
+                        repoId = it.id,
+                        prevKey = prevKey,
+                        nextKey = nextKey
+                    )
                 }
                 appDatabase.getRepoDao().insertAll(keys)
                 appDatabase.getCatModelDao().insertAll(response)

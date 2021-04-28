@@ -22,7 +22,7 @@ class CatViewHolder(view: View, private val onClickCallBack : (catModel: CatMode
         Glide.with(itemView.context)
                 .asBitmap()
                 .load(catModel?.url)
-                .apply{RequestOptions.placeholderOf(R.drawable.ic_cat_place_holder).error(R.drawable.ic_broken_image)}
+                .apply{RequestOptions.placeholderOf(R.drawable.ic_cat_place_holder_black).error(R.drawable.ic_broken_image)}
                 .into(object  : CustomTarget<Bitmap>(){
                     override fun onLoadCleared(placeholder: Drawable?) {
                     }
@@ -35,14 +35,9 @@ class CatViewHolder(view: View, private val onClickCallBack : (catModel: CatMode
                             onClickCallBack(catModel!!)
                         }
                         itemView.catPhoto.setImageBitmap(Bitmap.createScaledBitmap(resource, imageSize, imageSize, true))
-
                     }
 
                 })
-
-
-
-
     }
 
     companion object{
