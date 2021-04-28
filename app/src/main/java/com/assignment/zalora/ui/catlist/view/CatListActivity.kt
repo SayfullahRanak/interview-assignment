@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.assignment.utils.base.BaseActivity
 import com.assignment.zalora.R
 import com.assignment.zalora.ui.catlist.viewmodel.CatRemoteViewModel
-import com.assignment.zalora.ui.catlist.adapter.CatAdapter
+import com.assignment.zalora.ui.catlist.adapter.CatListAdapter
 import com.assignment.zalora.ui.catlist.adapter.LoaderStateAdapter
 import com.assignment.zalora.utils.AppUtils
 import com.assignment.zalora.utils.GridDecoration
@@ -26,7 +26,7 @@ class CatListActivity : BaseActivity(false,true) {
 
     private  val catsViewModel: CatRemoteViewModel by viewModels()
 
-    private lateinit var catAdapter: CatAdapter
+    private lateinit var catListAdapter: CatListAdapter
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -43,14 +43,14 @@ class CatListActivity : BaseActivity(false,true) {
 
         val gridLayoutManager = GridLayoutManager(this, 3) as RecyclerView.LayoutManager?
 
-        catAdapter =
-            CatAdapter({ cat ->
+        catListAdapter =
+            CatListAdapter({ cat ->
                 catsViewModel.onClickImage(cat)
             }, getColumnSize())
 
         val loaderStateAdapter =
-            LoaderStateAdapter { catAdapter.retry() }
-        val catAdapterWithFooter = catAdapter.withLoadStateFooter(loaderStateAdapter)
+            LoaderStateAdapter { catListAdapter.retry() }
+        val catAdapterWithFooter = catListAdapter.withLoadStateFooter(loaderStateAdapter)
 
         catListView.layoutManager = gridLayoutManager
         catListView.addItemDecoration(GridDecoration())
@@ -66,7 +66,7 @@ class CatListActivity : BaseActivity(false,true) {
     private fun fetchCatImages() {
         lifecycleScope.launch {
             catsViewModel.fetchCatImages().distinctUntilChanged().collectLatest {
-                catAdapter.submitData(it)
+                catListAdapter.submitData(it)
             }
         }
     }

@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.assignment.zalora.R
 import com.assignment.zalora.data.entities.CatModel
 
-class CatAdapter(private val onItemClick : (catModel: CatModel) -> Unit, private val columnSize: Int) : PagingDataAdapter<CatModel, RecyclerView.ViewHolder>(
+class CatListAdapter(private val onItemClick : (catModel: CatModel) -> Unit, private val columnSize: Int) : PagingDataAdapter<CatModel, RecyclerView.ViewHolder>(
     UserDiffCallback
 ) {
 

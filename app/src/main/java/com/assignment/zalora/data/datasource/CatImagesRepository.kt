@@ -49,6 +49,11 @@ class CatImagesRepository(private val mainRepo: MainRepo,private val appDatabase
     }
 
 
+    /**
+     * calling the paging source to give results from database
+     * and returning the results in the form of flow [Flow<PagingData<Cat>>]
+     * since the [PagingDataAdapter] accepts the [PagingData] as the source in later stage
+     */
     fun letCatsImagesFlowDb(pagingConfig: PagingConfig = getDefaultPageConfig()): Flow<PagingData<CatModel>> {
         if (appDatabase == null) throw IllegalStateException("Database is not initialized")
 
