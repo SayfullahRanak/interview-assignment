@@ -5,12 +5,13 @@ import android.content.Intent
 
 import android.os.Bundle
 import android.view.WindowManager
+import androidx.paging.ExperimentalPagingApi
 
 import com.assignment.zalora.BuildConfig
 import com.assignment.zalora.R
 
 import com.assignment.utils.base.BaseActivity
-import com.assignment.zalora.ui.catlist.CatListActivity
+import com.assignment.zalora.ui.catlist.view.CatListActivity
 
 import io.reactivex.disposables.Disposable
 import kotlinx.android.synthetic.main.activity_splash.*
@@ -35,6 +36,7 @@ class SplashActivity : BaseActivity(false,true) {
     }
 
 
+    @ExperimentalPagingApi
     override fun onResume() {
         super.onResume()
 

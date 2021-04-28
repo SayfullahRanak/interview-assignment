@@ -10,7 +10,6 @@ import androidx.lifecycle.Observer
 import com.assignment.zalora.R
 
 import com.assignment.utils.base.BaseActivity
-import com.assignment.zalora.GlideApp
 import com.bumptech.glide.Glide
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -48,7 +47,7 @@ class CatViewFullScreen : BaseActivity(false,true) {
 
     fun loadUrl(url: String){
 
-        GlideApp.with(this)
+        Glide.with(this)
                 .load(url)
                 .fitCenter()
                 .error(R.drawable.ic_broken_image)

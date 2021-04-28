@@ -21,7 +21,7 @@
         <uses-library android:name="org.apache.http.legacy" android:required="false"/>
 
         <activity
-            android:name=".ui.CatListActivityPagging"
+            android:name=".ui.splash.SplashActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:theme="@style/transparentBG">
@@ -42,6 +42,11 @@
 
         <activity
             android:name=".ui.catDetail.CatViewFullScreen"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.catlist.view.CatListActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
 

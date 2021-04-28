@@ -8,21 +8,6 @@ import io.reactivex.Single
 
 interface RestService {
 
-
-//    @GET("/homework")
-//    fun RestaurantList():
-//            Observable<Response<RestaurantList>>
-
-//    @GET(Urls.FetchNewsList)
-//    fun fetchListNews(
-//        @Query("source") source: String?,
-//        @Query("apiKey") apiKey: String?
-//    ): Observable<JsonElement?>?
-
-    @GET("v1/images/search?")
-    fun getUsers(@Query("limit") perPageLimit: Long, @Query("page") perPage: Long,
-                 @Query("mime_types") mimneType: String, @Query("order") orderType: String): Single<List<CatModel>>
-
     @GET("v1/images/search?")
     suspend fun getCats(@Query("limit") perPageLimit: Int, @Query("page") perPage: Int,
                  @Query("mime_types") mimneType: String, @Query("order") orderType: String): List<CatModel>

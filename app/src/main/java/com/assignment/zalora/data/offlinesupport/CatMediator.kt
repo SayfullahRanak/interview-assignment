@@ -9,7 +9,7 @@ import com.assignment.zalora.data.db.AppDatabase
 import com.assignment.zalora.data.db.RemoteKeys
 import com.assignment.zalora.data.entities.CatModel
 import com.assignment.zalora.data.repo.MainRepo
-import com.assignment.zalora.ui.catlist.paging3.CatImagesRepository.Companion.DEFAULT_PAGE_INDEX
+import com.assignment.zalora.data.datasource.CatImagesRepository.Companion.DEFAULT_PAGE_INDEX
 import retrofit2.HttpException
 import java.io.IOException
 import java.io.InvalidObjectException
