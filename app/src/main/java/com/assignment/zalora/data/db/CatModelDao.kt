@@ -11,14 +11,13 @@ import com.assignment.zalora.data.entities.CatModel
 interface CatModelDao {
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    suspend fun insertAll(catModelModel : List<CatModel>)
+    suspend fun insertAll(doggoModel: List<CatModel>)
 
+    @Query("SELECT * FROM CatModel")
+    fun getAllCatModel(): PagingSource<Int, CatModel>
 
-    @Query("SELECT * FROM catmodel")
-    fun getAllCatModel() : PagingSource<Int, CatModel>
-
-    @Query("DELETE FROM catmodel")
-    suspend fun clearAllCat()
+    @Query("DELETE FROM CatModel")
+    suspend fun clearAllCats()
 
 
 

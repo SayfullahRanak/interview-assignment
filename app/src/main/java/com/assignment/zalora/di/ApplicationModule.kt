@@ -1,9 +1,11 @@
 package com.assignment.zalora.di
 
+import android.content.Context
 import android.util.Log
 import com.assignment.zalora.data.rest.RestService
 import com.assignment.zalora.utils.Cons
 import com.assignment.utils.di.RetrofitServiceGenerator
+import com.assignment.zalora.data.db.AppDatabase
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -78,6 +80,12 @@ class ApplicationModule {
         return retrofit.create(RestService::class.java)
     }
 
+
+    @Singleton
+    @Provides
+    fun getDataBase(context: Context): AppDatabase {
+        return AppDatabase.getInstance(context)
+    }
 
 
 

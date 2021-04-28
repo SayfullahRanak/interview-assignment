@@ -1,12 +1,14 @@
 package com.assignment.zalora.ui.catlist.paging3
 
+import androidx.paging.ExperimentalPagingApi
 import androidx.paging.PagingSource
+import androidx.paging.PagingState
 import com.assignment.zalora.data.entities.CatModel
 import com.assignment.zalora.data.repo.MainRepo
 import retrofit2.HttpException
 import java.io.IOException
 
-//@ExperimentalPagingApi
+@ExperimentalPagingApi
 class CatImagePagingSource(private val mainRepo: MainRepo) : PagingSource<Int, CatModel>() {
 
     override suspend fun load(params: LoadParams<Int>): LoadResult<Int, CatModel> {
@@ -26,6 +28,10 @@ class CatImagePagingSource(private val mainRepo: MainRepo) : PagingSource<Int, C
         }catch (exception : HttpException){
             LoadResult.Error(exception)
         }
+    }
+
+    override fun getRefreshKey(state: PagingState<Int, CatModel>): Int? {
+        TODO("Not yet implemented")
     }
 
 

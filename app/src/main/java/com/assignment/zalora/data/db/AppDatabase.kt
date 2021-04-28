@@ -4,9 +4,11 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import androidx.room.TypeConverters
 import com.assignment.zalora.data.entities.CatModel
 
 @Database(version = 1, entities = [CatModel::class,RemoteKeys::class], exportSchema = false)
+@TypeConverters(Converter::class)
 abstract class AppDatabase : RoomDatabase() {
 
     abstract fun getRepoDao(): RemoteKeysDao

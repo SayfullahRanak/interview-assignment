@@ -15,6 +15,6 @@ constructor(private val repoService: RestService) {
 
     suspend fun getCats(pageLimit: Int, pageNumber: Int): List<CatModel> {
 
-        return repoService.getCats( pageLimit, pageNumber,"png","Desc")
+        return repoService.getCats( 20, pageNumber,"png","Desc")
     }
 }

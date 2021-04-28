@@ -1,9 +1,12 @@
 package com.assignment.zalora.ui.catlist.paging3
 
+import androidx.paging.ExperimentalPagingApi
 import androidx.paging.Pager
 import androidx.paging.PagingConfig
 import androidx.paging.PagingData
+import com.assignment.zalora.data.db.AppDatabase
 import com.assignment.zalora.data.entities.CatModel
+import com.assignment.zalora.data.offlinesupport.CatMediator
 import com.assignment.zalora.data.repo.MainRepo
 import kotlinx.coroutines.flow.Flow
 
@@ -12,8 +15,8 @@ import kotlinx.coroutines.flow.Flow
  * repository class to manage the data flow and map it if needed
  */
 
-//@ExperimentalPagingApi
-class CatImagesRepository(private val mainRepo: MainRepo) {
+@ExperimentalPagingApi
+class CatImagesRepository(private val mainRepo: MainRepo,private val appDatabase: AppDatabase) {
 
 
     companion object {
@@ -21,7 +24,7 @@ class CatImagesRepository(private val mainRepo: MainRepo) {
         const val DEFAULT_PAGE_SIZE = 20
 
         //get cat data repository instance
-        fun getInstance(mainRepo: MainRepo) = CatImagesRepository(mainRepo)
+        fun getInstance(mainRepo: MainRepo, appDatabase: AppDatabase) = CatImagesRepository(mainRepo, appDatabase)
     }
 
     /**
@@ -34,6 +37,18 @@ class CatImagesRepository(private val mainRepo: MainRepo) {
         return Pager(
             config = pagingConfig,
             pagingSourceFactory = {CatImagePagingSource(mainRepo)}
+        ).flow
+    }
+
+
+    fun letCatsImagesFlowDb(pagingConfig: PagingConfig = getDefaultPageConfig()): Flow<PagingData<CatModel>> {
+        if (appDatabase == null) throw IllegalStateException("Database is not initialized")
+
+        val pagingSourceFactory = { appDatabase.getCatModelDao().getAllCatModel() }
+        return Pager(
+            config = pagingConfig,
+            pagingSourceFactory = pagingSourceFactory,
+            remoteMediator = CatMediator(mainRepo, appDatabase)
         ).flow
     }
 

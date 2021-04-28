@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.View
 import androidx.activity.viewModels
 import androidx.lifecycle.lifecycleScope
+import androidx.paging.ExperimentalPagingApi
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.assignment.utils.base.BaseActivity
@@ -24,6 +25,7 @@ import kotlinx.coroutines.launch
 
 
 @AndroidEntryPoint
+@ExperimentalPagingApi
 class CatListActivityPagging : BaseActivity(false,true) {
 
     private  val catsViewModel: CatRemoteViewModel by viewModels()
@@ -81,6 +83,8 @@ class CatListActivityPagging : BaseActivity(false,true) {
 //            catAdapter.setNetworkState(it)
 //        })
     }
+
+
 
     private fun fetchCatImages() {
         lifecycleScope.launch {
