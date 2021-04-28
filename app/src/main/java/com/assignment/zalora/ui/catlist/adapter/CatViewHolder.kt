@@ -9,6 +9,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.assignment.zalora.R
 import com.assignment.zalora.data.entities.CatModel
 import com.bumptech.glide.Glide
+import com.bumptech.glide.request.RequestOptions
 import com.bumptech.glide.request.target.CustomTarget
 import com.bumptech.glide.request.transition.Transition
 import kotlinx.android.synthetic.main.item_cat.view.*
@@ -21,6 +22,7 @@ class CatViewHolder(view: View, private val onClickCallBack : (catModel: CatMode
         Glide.with(itemView.context)
                 .asBitmap()
                 .load(catModel?.url)
+                .apply{RequestOptions.placeholderOf(R.drawable.ic_cat_place_holder).error(R.drawable.ic_broken_image)}
                 .into(object  : CustomTarget<Bitmap>(){
                     override fun onLoadCleared(placeholder: Drawable?) {
                     }
@@ -37,6 +39,7 @@ class CatViewHolder(view: View, private val onClickCallBack : (catModel: CatMode
                     }
 
                 })
+
 
 
 

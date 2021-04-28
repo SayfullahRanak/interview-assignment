@@ -14,7 +14,7 @@
         android:background="@color/black"
         android:fitsSystemWindows="true">
 
-        <androidx.appcompat.widget.AppCompatImageView
+        <com.zolad.zoominimageview.ZoomInImageView
             android:id="@+id/catImageView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

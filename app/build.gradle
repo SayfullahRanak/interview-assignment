@@ -91,10 +91,6 @@ dependencies {
     implementation "androidx.fragment:fragment-ktx:$android_ktx_version"
 //    implementation  "androidx.activity:activity-ktx:$android_ktx_version"
 
-    /*
-     * Step 1: Add the paging library
-     */
-    implementation 'android.arch.paging:runtime:1.0.0'
 
     //    Testing
     testImplementation 'junit:junit:4.13.1'
@@ -105,13 +101,14 @@ dependencies {
 
     //paging3
     implementation "androidx.paging:paging-runtime:3.0.0-alpha02"
-//optional dependency for RxJava support
-//    implementation "androidx.paging:paging-rxjava2-ktx:3.0.0-alpha02"
 //optional room db
     implementation "androidx.room:room-runtime:2.3.0-alpha02"
     implementation "androidx.room:room-ktx:2.3.0-alpha02"
     kapt "androidx.room:room-compiler:2.3.0-alpha02"
 
+    // Pinch to zoom
+
+    implementation 'com.zolad:zoominimageview:1.0.0'
 
 
 
