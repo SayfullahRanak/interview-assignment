@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5499abb1-1ada-4916-8ba0-12e1f855b0b0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[dcc26a050504]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="JUnit4 Test Class" />
+        <option value="valueResourceFile" />
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="zalora-assignment-2" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1rYseZCmZEPSGCJWGLZIKlL4dRz" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_XL_API_30" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-04-23T17:43:37.328Z" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android-custom-view/Users/mazharulhaque/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.2.0/13e8ff89631c2e101eb6bddd12c2fb4bbd74b15d/appcompat-1.2.0-sources.jar!/androidx/appcompat/widget/AppCompatImageView.java_SELECTED" value="AppCompatImageView" />
+    <property name="android-custom-view/Users/mazharulhaque/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.0.0/2151d26c3b241f0a887f2dadb9ab091649fcf020/recyclerview-1.0.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_SELECTED" value="RecyclerView" />
+    <property name="android-custom-view/Users/mazharulhaque/Desktop/personal/Interview Assignment/utils/src/main/java/com/assignment/utils/base/CustomViewPager.kt_SELECTED" value="CustomViewPager" />
+    <property name="android-custom-view/Users/mazharulhaque/Desktop/personal/Interview Assignment/utils/src/main/java/com/assignment/utils/views/CustomViewPager.kt_SELECTED" value="CustomViewPager" />
+    <property name="android-custom-view/Users/mazharulhaque/Desktop/personal/Interview Assignment/utils/src/main/java/com/assignment/utils/views/MyButton.kt_SELECTED" value="MyButton" />
+    <property name="android-custom-view/Users/mazharulhaque/Desktop/personal/Interview Assignment/utils/src/main/java/com/assignment/utils/views/MyEditText.kt_SELECTED" value="MyEditText" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/build/generated/source/kaptKotlin/ProductionDebugAndroidTest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="multi-representation-preview/Users/mazharulhaque/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.2.0/13e8ff89631c2e101eb6bddd12c2fb4bbd74b15d/appcompat-1.2.0-sources.jar!/androidx/appcompat/widget/AppCompatImageView.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/mazharulhaque/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.0.0/2151d26c3b241f0a887f2dadb9ab091649fcf020/recyclerview-1.0.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/mazharulhaque/Desktop/personal/Interview Assignment/utils/src/main/java/com/assignment/utils/base/CustomViewPager.kt_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/mazharulhaque/Desktop/personal/Interview Assignment/utils/src/main/java/com/assignment/utils/views/CustomViewPager.kt_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/mazharulhaque/Desktop/personal/Interview Assignment/utils/src/main/java/com/assignment/utils/views/MyButton.kt_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/mazharulhaque/Desktop/personal/Interview Assignment/utils/src/main/java/com/assignment/utils/views/MyEditText.kt_selected" value="Custom views" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.assignment.zalora.data.entities" />
+      <recent name="com.assignment.zalora.ui.catlist.viewmodel" />
+      <recent name="com.assignment.zalora.ui.catlist.view" />
+      <recent name="com.assignment.zalora.ui.catlist" />
+      <recent name="com.assignment.zalora.ui.catlist.adapter" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.assignment.zalora.ui.catlist" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.assignment.zalora.ui" />
+      <recent name="com.assignment.zalora.ui.catlist.adapter" />
+      <recent name="com.assignment.zalora.utils" />
+      <recent name="com.assignment.zalora.ui.catDetail" />
+      <recent name="com.assignment.assignment.hilt" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.assignment.zalora.data" />
+      <recent name="com.assignment.utils" />
+      <recent name="com.assignment.assignment" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/utils/src/main/res/values" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/xml" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="SETEL-ASSIGNMENT.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5499abb1-1ada-4916-8ba0-12e1f855b0b0" name="Default Changelist" comment="" />
+      <created>1619164453426</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619164453426</updated>
+    </task>
+    <task id="LOCAL-00001" summary="feat : migrated from dagger 2.0 to hilt">
+      <created>1619211826746</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1619211826747</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat : implemented cat list maintaining corner cases using pagging library, mvvm, live data and Rx&#10;&#10;#Feature 1&#10;......................&#10;# Load the cat images from ​api.thecatapi.com, ​limit each page to 20 images e.g&#10;  https://api.thecatapi.com/v1/images/search?limit=20&amp;page=1&amp;mime_types=png&#10;# Display the cat images in a ​square-3 column​ layout while maintaining the aspect ratio of the image&#10;# Allow the user to browse and scroll through the endless cat images">
+      <created>1619360404351</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619360404352</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat : implemented onlick event on each item and image full screen view">
+      <created>1619411986413</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1619411986413</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat : resize image keeping while maintaining the aspect ratio of the image&#10;&#10;# Display the cat images in a ​square-3 column​ layout while maintaining the aspect ratio of the image">
+      <created>1619422337745</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1619422337745</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat : migration from  'android.arch.paging:runtime:1.0.0' to &quot;androidx.paging:paging-runtime:3.0.0-alpha03&quot;, implemented primary base of database for offliner support.. &#10;&#10;# Migrated to jetpack paging 3.0.0 for better performance on scrolling, loading and control on development part&#10;&#10;# Created Loading adapter (footer) for inserting loading &#10;&#10;# Created database primary base classes">
+      <created>1619543379689</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1619543379689</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat : primary implementation on offline support using madiator and local database&#10;&#10;# keys will be coming nul if we use paging version above 3.0.0-alpha02">
+      <created>1619573989806</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1619573989806</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat : offline support compelete&#10;&#10;# Support offline-first architecture for low-speed connections optimization and offline&#10;  capabilities by storing data in local database">
+      <created>1619574917861</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1619574917861</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat : pinch to zoom implemented&#10;&#10;# [Bonus] ​Add-on pinch-to-zoom feature, similar but not strictly necessary to be the same&#10;  with ​sample.mov">
+      <created>1619577258065</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1619577258065</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fix : refactored some dependency issues">
+      <created>1619579071109</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1619579071109</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat : migrated from dagger 2.0 to hilt" />
+    <MESSAGE value="feat : implemented cat list maintaining corner cases using pagging library, mvvm, live data and Rx&#10;&#10;#Feature 1&#10;......................&#10;# Load the cat images from ​api.thecatapi.com, ​limit each page to 20 images e.g&#10;  https://api.thecatapi.com/v1/images/search?limit=20&amp;page=1&amp;mime_types=png&#10;# Display the cat images in a ​square-3 column​ layout while maintaining the aspect ratio of the image&#10;# Allow the user to browse and scroll through the endless cat images" />
+    <MESSAGE value="feat : implemented onlick event on each item and image full screen view" />
+    <MESSAGE value="feat : resize image keeping while maintaining the aspect ratio of the image&#10;&#10;# Display the cat images in a ​square-3 column​ layout while maintaining the aspect ratio of the image" />
+    <MESSAGE value="feat : migration from  'android.arch.paging:runtime:1.0.0' to &quot;androidx.paging:paging-runtime:3.0.0-alpha03&quot;, implemented primary base of database for offliner support.. &#10;&#10;# Migrated to jetpack paging 3.0.0 for better performance on scrolling, loading and control on development part&#10;&#10;# Created Loading adapter (footer) for inserting loading &#10;&#10;# Created database primary base classes" />
+    <MESSAGE value="feat : primary implementation on offline support using madiator and local database&#10;&#10;# keys will be coming nul if we use paging version above 3.0.0-alpha02" />
+    <MESSAGE value="feat : offline support compelete&#10;&#10;# Support offline-first architecture for low-speed connections optimization and offline&#10;  capabilities by storing data in local database" />
+    <MESSAGE value="feat : pinch to zoom implemented&#10;&#10;# [Bonus] ​Add-on pinch-to-zoom feature, similar but not strictly necessary to be the same&#10;  with ​sample.mov" />
+    <MESSAGE value="fix : refactored some dependency issues" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix : refactored some dependency issues" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="165" y="139" key="#PSD" timestamp="1619164694296">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="165" y="139" key="#PSD/0.0.1280.800@0.0.1280.800" timestamp="1619164694296" />
+    <state x="403" y="123" key="#com.intellij.ide.util.MemberChooser" timestamp="1619548997549">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="403" y="123" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1619548997549" />
+    <state x="114" y="331" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1619574266186">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="114" y="331" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.800@0.0.1280.800" timestamp="1619574266186" />
+    <state x="255" y="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1619574268008">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="255" y="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.800@0.0.1280.800" timestamp="1619574268008" />
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1619574241313">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.800@0.0.1280.800" timestamp="1619574241313" />
+    <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1619578203911">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1619578203911" />
+    <state x="230" y="185" width="584" height="453" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1619577310104">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="230" y="185" width="584" height="453" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1619577310104" />
+    <state x="228" y="162" key="AndroidCreateResourceDirectoryDialog" timestamp="1619535342629">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="228" y="162" key="AndroidCreateResourceDirectoryDialog/0.0.1280.800@0.0.1280.800" timestamp="1619535342629" />
+    <state x="228" y="162" key="AndroidCreateResourceFileDialog" timestamp="1619535187213">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="228" y="162" key="AndroidCreateResourceFileDialog/0.0.1280.800@0.0.1280.800" timestamp="1619535187213" />
+    <state x="395" y="163" key="AndroidCreateXmlResourceDialog" timestamp="1619578083458">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="395" y="163" key="AndroidCreateXmlResourceDialog/0.0.1280.800@0.0.1280.800" timestamp="1619578083458" />
+    <state x="126" y="23" width="945" height="726" key="CommitChangelistDialog2" timestamp="1619579070053">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="126" y="23" width="945" height="726" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1619579070053" />
+    <state width="1238" height="253" key="GridCell.Tab.0.bottom" timestamp="1619579192717">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="253" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1619579192717" />
+    <state width="1238" height="125" key="GridCell.Tab.0.bottom/0.23.1280.726@0.23.1280.726" timestamp="1619574811267" />
+    <state width="1238" height="352" key="GridCell.Tab.0.bottom/0.23.1280.727@0.23.1280.727" timestamp="1619372863984" />
+    <state width="1238" height="304" key="GridCell.Tab.0.bottom/0.23.1280.728@0.23.1280.728" timestamp="1619550498178" />
+    <state width="1238" height="253" key="GridCell.Tab.0.center" timestamp="1619579192716">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="253" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1619579192716" />
+    <state width="1238" height="125" key="GridCell.Tab.0.center/0.23.1280.726@0.23.1280.726" timestamp="1619574811266" />
+    <state width="1238" height="352" key="GridCell.Tab.0.center/0.23.1280.727@0.23.1280.727" timestamp="1619372863983" />
+    <state width="1238" height="304" key="GridCell.Tab.0.center/0.23.1280.728@0.23.1280.728" timestamp="1619550498176" />
+    <state width="1238" height="253" key="GridCell.Tab.0.left" timestamp="1619579192716">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="253" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1619579192716" />
+    <state width="1238" height="125" key="GridCell.Tab.0.left/0.23.1280.726@0.23.1280.726" timestamp="1619574811265" />
+    <state width="1238" height="352" key="GridCell.Tab.0.left/0.23.1280.727@0.23.1280.727" timestamp="1619372863982" />
+    <state width="1238" height="304" key="GridCell.Tab.0.left/0.23.1280.728@0.23.1280.728" timestamp="1619550498175" />
+    <state width="1238" height="253" key="GridCell.Tab.0.right" timestamp="1619579192717">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="253" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1619579192717" />
+    <state width="1238" height="125" key="GridCell.Tab.0.right/0.23.1280.726@0.23.1280.726" timestamp="1619574811267" />
+    <state width="1238" height="352" key="GridCell.Tab.0.right/0.23.1280.727@0.23.1280.727" timestamp="1619372863984" />
+    <state width="1238" height="304" key="GridCell.Tab.0.right/0.23.1280.728@0.23.1280.728" timestamp="1619550498177" />
+    <state width="640" height="400" key="XDebugger.FullValuePopup" timestamp="1619573665784">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="640" height="400" key="XDebugger.FullValuePopup/0.0.1280.800@0.0.1280.800" timestamp="1619573665784" />
+    <state x="417" y="184" key="chooseDestDirectoryDialog" timestamp="1619518589152">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="417" y="184" key="chooseDestDirectoryDialog/0.0.1280.800@0.0.1280.800" timestamp="1619518589152" />
+    <state x="296" y="147" width="944" height="554" key="find.popup" timestamp="1619548236142">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="296" y="147" width="944" height="554" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1619548236142" />
+    <state x="379" y="129" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1619518589198">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="379" y="129" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.0.1280.800@0.0.1280.800" timestamp="1619518589198" />
+    <state x="305" y="185" key="run.anything.popup" timestamp="1619490584717">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="185" key="run.anything.popup/0.0.1280.800@0.0.1280.800" timestamp="1619490584717" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1619275997560">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1619275997560" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/ui/restaurants/RestaurantListActivity.kt</url>
+          <line>41</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/ui/restaurants/RestaurantListActivity.kt</url>
+          <line>40</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/ui/restaurants/RestaurantListActivity.kt</url>
+          <line>30</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/ui/restaurants/RestaurantListActivity.kt</url>
+          <line>25</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/ui/restaurants/RestaurantListActivity.kt</url>
+          <line>28</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/ui/restaurants/RestaurantListActivity.kt</url>
+          <line>26</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/ui/restaurants/RestaurantListActivity.kt</url>
+          <line>36</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/ui/restaurants/RestaurantListViewModel.kt</url>
+          <line>61</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/ui/restaurants/RestaurantListViewModel.kt</url>
+          <line>62</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/ui/restaurants/RestaurantListViewModel.kt</url>
+          <line>65</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/ui/restaurants/RestaurantListViewModel.kt</url>
+          <line>69</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/ui/restaurants/RestaurantListActivity.kt</url>
+          <line>42</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/data/datasource/basic/CatDataSource.kt</url>
+          <line>82</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/ui/catDetail/CatViewFullScreen.kt</url>
+          <line>33</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/ui/catDetail/CatViewFullScreen.kt</url>
+          <line>36</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/ui/catDetail/CatViewFullScreen.kt</url>
+          <line>37</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/ui/catDetail/CatViewFullScreen.kt</url>
+          <line>39</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/ui/catDetail/CatViewFullScreen.kt</url>
+          <line>47</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/ui/catDetail/CatViewFullScreen.kt</url>
+          <line>52</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/ui/catlist/adapter/CatViewHolder.kt</url>
+          <line>36</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/data/rest/RestService.kt</url>
+          <line>12</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/data/offlinesupport/CatMediator.kt</url>
+          <line>73</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/data/offlinesupport/CatMediator.kt</url>
+          <line>77</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/data/offlinesupport/CatMediator.kt</url>
+          <line>76</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/data/offlinesupport/CatMediator.kt</url>
+          <line>81</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/data/offlinesupport/CatMediator.kt</url>
+          <line>84</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/data/offlinesupport/CatMediator.kt</url>
+          <line>94</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/data/offlinesupport/CatMediator.kt</url>
+          <line>104</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/data/offlinesupport/CatMediator.kt</url>
+          <line>114</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/data/offlinesupport/CatMediator.kt</url>
+          <line>45</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/data/offlinesupport/CatMediator.kt</url>
+          <line>46</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/data/offlinesupport/CatMediator.kt</url>
+          <line>54</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/data/offlinesupport/CatMediator.kt</url>
+          <line>55</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/data/offlinesupport/CatMediator.kt</url>
+          <line>38</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/data/offlinesupport/CatMediator.kt</url>
+          <line>41</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/data/offlinesupport/CatMediator.kt</url>
+          <line>24</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/data/offlinesupport/CatMediator.kt</url>
+          <line>31</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/data/offlinesupport/CatMediator.kt</url>
+          <line>26</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/data/offlinesupport/CatMediator.kt</url>
+          <line>30</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/data/offlinesupport/CatMediator.kt</url>
+          <line>27</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
