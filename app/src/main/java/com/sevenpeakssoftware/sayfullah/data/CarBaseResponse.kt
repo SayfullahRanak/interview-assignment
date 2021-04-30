@@ -1,4 +1,4 @@
-package com.sayfullah.utils.data
+package com.sevenpeakssoftware.sayfullah.data
 
 data class CarBaseResponse(
     val content: List<Content>,

@@ -91,6 +91,9 @@ dependencies {
     //Android KTX
     implementation "androidx.fragment:fragment-ktx:$android_ktx_version"
 
+    // shimmer loader
+    implementation 'com.facebook.shimmer:shimmer:0.5.0'
+
 
 
 }

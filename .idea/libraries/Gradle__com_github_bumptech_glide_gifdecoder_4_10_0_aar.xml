@@ -4,8 +4,6 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7336f54e4ae5f4960593b3e59cbea144/jetified-gifdecoder-4.10.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4fa2b80680da3e70c944c9abfed6caff/jetified-gifdecoder-4.10.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/457ba8244ee863f11dc417d4b992222c/jetified-gifdecoder-4.10.0/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7336f54e4ae5f4960593b3e59cbea144/jetified-gifdecoder-4.10.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7336f54e4ae5f4960593b3e59cbea144/jetified-gifdecoder-4.10.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7336f54e4ae5f4960593b3e59cbea144/jetified-gifdecoder-4.10.0/AndroidManifest.xml" />

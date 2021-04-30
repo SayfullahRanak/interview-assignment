@@ -2,8 +2,8 @@
   <library name="Gradle: com.github.iwgang:countdownview:2.1.6@aar">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5a52d6dbea65d39009b7a531a1b04151/jetified-countdownview-2.1.6/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5a52d6dbea65d39009b7a531a1b04151/jetified-countdownview-2.1.6/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5a52d6dbea65d39009b7a531a1b04151/jetified-countdownview-2.1.6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5a52d6dbea65d39009b7a531a1b04151/jetified-countdownview-2.1.6/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.iwgang/countdownview/2.1.6/67aa20f41cececcbec7f3dbac4c17cf006df95ff/countdownview-2.1.6-javadoc.jar!/" />
