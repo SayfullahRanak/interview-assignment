@@ -9,13 +9,71 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5499abb1-1ada-4916-8ba0-12e1f855b0b0" name="Default Changelist" comment="" />
+    <list default="true" id="5499abb1-1ada-4916-8ba0-12e1f855b0b0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Cars.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/app/Cars.app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/utils/Cars.utils.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle_____________Library_Android_sdk_build_tools_29_0_2_renderscript_lib_androidx_rs_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle_____________Library_Android_sdk_build_tools_30_0_3_renderscript_lib_androidx_rs_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/SETEL-ASSIGNMENT.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/SETEL-ASSIGNMENT.app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/utils/SETEL-ASSIGNMENT.utils.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/setel/assignment/data/entities/Restaurant.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/setel/assignment/data/entities/RestaurantList.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/setel/assignment/data/entities/RestaurantTiming.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/setel/assignment/data/interfaces/ConfirmListener.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/setel/assignment/data/interfaces/OtpVerifyHandle.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/setel/assignment/data/interfaces/UserVerifyHandle.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/setel/assignment/data/repo/MainRepo.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/setel/assignment/data/rest/RestService.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/setel/assignment/di/components/ApplicationComponent.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/setel/assignment/di/modules/ActivityModule.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/setel/assignment/di/modules/ApplicationModule.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/setel/assignment/di/modules/ContextModule.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/setel/assignment/di/modules/ViewModelModule.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/setel/assignment/ui/restaurant/OperatingHourAdapter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/setel/assignment/ui/restaurant/RestaurantDetailActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/setel/assignment/ui/restaurant/RestaurantDetailViewModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/setel/assignment/ui/restaurants/RestaurantAdapter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/setel/assignment/ui/restaurants/RestaurantListActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/setel/assignment/ui/restaurants/RestaurantListViewModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/setel/assignment/ui/splash/SplashActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/setel/assignment/utils/AppUtils.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/setel/assignment/utils/Cons.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/setel/assignment/utils/LocalExtensions.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/setel/assignment/utils/MyApplication.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_restaurant_detail.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_restaurant_list.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/restaurant_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/row_restaurant_timing.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Pixel_XL_API_30]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[dcc26a050504]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -47,7 +105,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="zalora-assignment-2" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -130,7 +188,7 @@
       </method>
     </configuration>
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
-      <module name="SETEL-ASSIGNMENT.app" />
+      <module name="Cars.app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -264,6 +322,9 @@
     <option name="localTasksCounter" value="10" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat : migrated from dagger 2.0 to hilt" />
     <MESSAGE value="feat : implemented cat list maintaining corner cases using pagging library, mvvm, live data and Rx&#10;&#10;#Feature 1&#10;......................&#10;# Load the cat images from ​api.thecatapi.com, ​limit each page to 20 images e.g&#10;  https://api.thecatapi.com/v1/images/search?limit=20&amp;page=1&amp;mime_types=png&#10;# Display the cat images in a ​square-3 column​ layout while maintaining the aspect ratio of the image&#10;# Allow the user to browse and scroll through the endless cat images" />
@@ -321,31 +382,31 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="126" y="23" width="945" height="726" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1619579070053" />
-    <state width="1238" height="253" key="GridCell.Tab.0.bottom" timestamp="1619579192717">
+    <state width="1238" height="220" key="GridCell.Tab.0.bottom" timestamp="1619757240127">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="253" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1619579192717" />
+    <state width="1238" height="220" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1619757240127" />
     <state width="1238" height="125" key="GridCell.Tab.0.bottom/0.23.1280.726@0.23.1280.726" timestamp="1619574811267" />
     <state width="1238" height="352" key="GridCell.Tab.0.bottom/0.23.1280.727@0.23.1280.727" timestamp="1619372863984" />
     <state width="1238" height="304" key="GridCell.Tab.0.bottom/0.23.1280.728@0.23.1280.728" timestamp="1619550498178" />
-    <state width="1238" height="253" key="GridCell.Tab.0.center" timestamp="1619579192716">
+    <state width="1238" height="220" key="GridCell.Tab.0.center" timestamp="1619757240126">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="253" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1619579192716" />
+    <state width="1238" height="220" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1619757240126" />
     <state width="1238" height="125" key="GridCell.Tab.0.center/0.23.1280.726@0.23.1280.726" timestamp="1619574811266" />
     <state width="1238" height="352" key="GridCell.Tab.0.center/0.23.1280.727@0.23.1280.727" timestamp="1619372863983" />
     <state width="1238" height="304" key="GridCell.Tab.0.center/0.23.1280.728@0.23.1280.728" timestamp="1619550498176" />
-    <state width="1238" height="253" key="GridCell.Tab.0.left" timestamp="1619579192716">
+    <state width="1238" height="220" key="GridCell.Tab.0.left" timestamp="1619757240125">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="253" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1619579192716" />
+    <state width="1238" height="220" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1619757240125" />
     <state width="1238" height="125" key="GridCell.Tab.0.left/0.23.1280.726@0.23.1280.726" timestamp="1619574811265" />
     <state width="1238" height="352" key="GridCell.Tab.0.left/0.23.1280.727@0.23.1280.727" timestamp="1619372863982" />
     <state width="1238" height="304" key="GridCell.Tab.0.left/0.23.1280.728@0.23.1280.728" timestamp="1619550498175" />
-    <state width="1238" height="253" key="GridCell.Tab.0.right" timestamp="1619579192717">
+    <state width="1238" height="220" key="GridCell.Tab.0.right" timestamp="1619757240126">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="253" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1619579192717" />
+    <state width="1238" height="220" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1619757240126" />
     <state width="1238" height="125" key="GridCell.Tab.0.right/0.23.1280.726@0.23.1280.726" timestamp="1619574811267" />
     <state width="1238" height="352" key="GridCell.Tab.0.right/0.23.1280.727@0.23.1280.727" timestamp="1619372863984" />
     <state width="1238" height="304" key="GridCell.Tab.0.right/0.23.1280.728@0.23.1280.728" timestamp="1619550498177" />
@@ -378,62 +439,62 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/ui/restaurants/RestaurantListActivity.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/ui/restaurants/RestaurantListActivity.kt</url>
           <line>41</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/ui/restaurants/RestaurantListActivity.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/ui/restaurants/RestaurantListActivity.kt</url>
           <line>40</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/ui/restaurants/RestaurantListActivity.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/ui/restaurants/RestaurantListActivity.kt</url>
           <line>30</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/ui/restaurants/RestaurantListActivity.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/ui/restaurants/RestaurantListActivity.kt</url>
           <line>25</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/ui/restaurants/RestaurantListActivity.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/ui/restaurants/RestaurantListActivity.kt</url>
           <line>28</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/ui/restaurants/RestaurantListActivity.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/ui/restaurants/RestaurantListActivity.kt</url>
           <line>26</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/ui/restaurants/RestaurantListActivity.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/ui/restaurants/RestaurantListActivity.kt</url>
           <line>36</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/ui/restaurants/RestaurantListViewModel.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/ui/restaurants/RestaurantListViewModel.kt</url>
           <line>61</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/ui/restaurants/RestaurantListViewModel.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/ui/restaurants/RestaurantListViewModel.kt</url>
           <line>62</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/ui/restaurants/RestaurantListViewModel.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/ui/restaurants/RestaurantListViewModel.kt</url>
           <line>65</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/ui/restaurants/RestaurantListViewModel.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/ui/restaurants/RestaurantListViewModel.kt</url>
           <line>69</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/ui/restaurants/RestaurantListActivity.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/ui/restaurants/RestaurantListActivity.kt</url>
           <line>42</line>
           <properties>
             <option name="lambda-ordinal" value="-1" />
@@ -441,142 +502,142 @@
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/data/datasource/basic/CatDataSource.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/data/datasource/basic/CatDataSource.kt</url>
           <line>82</line>
           <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/ui/catDetail/CatViewFullScreen.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/ui/catDetail/CatViewFullScreen.kt</url>
           <line>33</line>
           <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/ui/catDetail/CatViewFullScreen.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/ui/catDetail/CatViewFullScreen.kt</url>
           <line>36</line>
           <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/ui/catDetail/CatViewFullScreen.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/ui/catDetail/CatViewFullScreen.kt</url>
           <line>37</line>
           <option name="timeStamp" value="72" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/ui/catDetail/CatViewFullScreen.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/ui/catDetail/CatViewFullScreen.kt</url>
           <line>39</line>
           <option name="timeStamp" value="73" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/ui/catDetail/CatViewFullScreen.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/ui/catDetail/CatViewFullScreen.kt</url>
           <line>47</line>
           <option name="timeStamp" value="77" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/ui/catDetail/CatViewFullScreen.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/ui/catDetail/CatViewFullScreen.kt</url>
           <line>52</line>
           <option name="timeStamp" value="78" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/ui/catlist/adapter/CatViewHolder.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/ui/catlist/adapter/CatViewHolder.kt</url>
           <line>36</line>
           <option name="timeStamp" value="82" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/data/rest/RestService.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/data/rest/RestService.kt</url>
           <line>12</line>
           <option name="timeStamp" value="102" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/data/offlinesupport/CatMediator.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/data/offlinesupport/CatMediator.kt</url>
           <line>73</line>
           <option name="timeStamp" value="118" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/data/offlinesupport/CatMediator.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/data/offlinesupport/CatMediator.kt</url>
           <line>77</line>
           <option name="timeStamp" value="119" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/data/offlinesupport/CatMediator.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/data/offlinesupport/CatMediator.kt</url>
           <line>76</line>
           <option name="timeStamp" value="120" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/data/offlinesupport/CatMediator.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/data/offlinesupport/CatMediator.kt</url>
           <line>81</line>
           <option name="timeStamp" value="121" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/data/offlinesupport/CatMediator.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/data/offlinesupport/CatMediator.kt</url>
           <line>84</line>
           <option name="timeStamp" value="122" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/data/offlinesupport/CatMediator.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/data/offlinesupport/CatMediator.kt</url>
           <line>94</line>
           <option name="timeStamp" value="123" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/data/offlinesupport/CatMediator.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/data/offlinesupport/CatMediator.kt</url>
           <line>104</line>
           <option name="timeStamp" value="124" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/data/offlinesupport/CatMediator.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/data/offlinesupport/CatMediator.kt</url>
           <line>114</line>
           <option name="timeStamp" value="125" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/data/offlinesupport/CatMediator.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/data/offlinesupport/CatMediator.kt</url>
           <line>45</line>
           <option name="timeStamp" value="127" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/data/offlinesupport/CatMediator.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/data/offlinesupport/CatMediator.kt</url>
           <line>46</line>
           <option name="timeStamp" value="128" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/data/offlinesupport/CatMediator.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/data/offlinesupport/CatMediator.kt</url>
           <line>54</line>
           <option name="timeStamp" value="130" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/data/offlinesupport/CatMediator.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/data/offlinesupport/CatMediator.kt</url>
           <line>55</line>
           <option name="timeStamp" value="131" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/data/offlinesupport/CatMediator.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/data/offlinesupport/CatMediator.kt</url>
           <line>38</line>
           <option name="timeStamp" value="132" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/data/offlinesupport/CatMediator.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/data/offlinesupport/CatMediator.kt</url>
           <line>41</line>
           <option name="timeStamp" value="133" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/data/offlinesupport/CatMediator.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/data/offlinesupport/CatMediator.kt</url>
           <line>24</line>
           <option name="timeStamp" value="134" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/data/offlinesupport/CatMediator.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/data/offlinesupport/CatMediator.kt</url>
           <line>31</line>
           <option name="timeStamp" value="136" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/data/offlinesupport/CatMediator.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/data/offlinesupport/CatMediator.kt</url>
           <line>26</line>
           <option name="timeStamp" value="137" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/data/offlinesupport/CatMediator.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/data/offlinesupport/CatMediator.kt</url>
           <line>30</line>
           <option name="timeStamp" value="138" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/assignment/zalora/data/offlinesupport/CatMediator.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/data/offlinesupport/CatMediator.kt</url>
           <line>27</line>
           <option name="timeStamp" value="139" />
         </line-breakpoint>

@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.scottyab:rootbeer-lib:0.0.7@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ca44bad952020ffe5a8020f5c0875bfd/jetified-rootbeer-lib-0.0.7/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ca44bad952020ffe5a8020f5c0875bfd/jetified-rootbeer-lib-0.0.7/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ca44bad952020ffe5a8020f5c0875bfd/jetified-rootbeer-lib-0.0.7/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/53605d2aca2bfb63b2ef5eb2149ec47b/jetified-rootbeer-lib-0.0.7/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/53605d2aca2bfb63b2ef5eb2149ec47b/jetified-rootbeer-lib-0.0.7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/53605d2aca2bfb63b2ef5eb2149ec47b/jetified-rootbeer-lib-0.0.7/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.scottyab/rootbeer-lib/0.0.7/27f83e5510c691d4c4efe958016384adc559c903/rootbeer-lib-0.0.7-javadoc.jar!/" />

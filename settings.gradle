@@ -1,2 +1,2 @@
 include ':app', ':utils'
-rootProject.name='SETEL-ASSIGNMENT'
+rootProject.name='Cars'
