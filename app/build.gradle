@@ -3,6 +3,8 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'org.jetbrains.kotlin.android.extensions'
 apply plugin: 'kotlin-kapt'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'dagger.hilt.android.plugin'
 
 android {
 
@@ -42,12 +44,12 @@ android {
     productFlavors {
         UAT {
             dimension "flavor"
-            buildConfigField "String", 'SERVER_URL', '"http://setel.axzae.com/"'
+            buildConfigField "String", 'SERVER_URL', '"https://www.apphusetreach.no/application/119267"'
 
         }
         Production {
             dimension "flavor"
-            buildConfigField "String", 'SERVER_URL', '"http://setel.axzae.com/"'
+            buildConfigField "String", 'SERVER_URL', '"https://www.apphusetreach.no/application/119267"'
         }
     }
 

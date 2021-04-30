@@ -3,8 +3,9 @@
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/14ea5904f8be97c56c43a344e43862b9/jetified-contacts-1.1.7/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/471bf4b1d19dc269c98c05524718549b/jetified-contacts-1.1.7/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/471bf4b1d19dc269c98c05524718549b/jetified-contacts-1.1.7/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/471bf4b1d19dc269c98c05524718549b/jetified-contacts-1.1.7/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/097af71974bd0913949eacbab8114f8f/jetified-contacts-1.1.7/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/097af71974bd0913949eacbab8114f8f/jetified-contacts-1.1.7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/097af71974bd0913949eacbab8114f8f/jetified-contacts-1.1.7/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.tamir7.contacts/contacts/1.1.7/55560bb26fab1ea1c523019eb26f84090e4f1f13/contacts-1.1.7-javadoc.jar!/" />

@@ -1,6 +1,6 @@
 package com.sevenpeakssoftware.sayfullah.utils
 
-import com.sevenpeakssoftware.sayfullah.BuildConfig
+import com.sayfullah.assignment.BuildConfig
 
 
 class Cons {
