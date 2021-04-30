@@ -38,7 +38,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <com.setel.utils.views.MyTextView
+        <com.sayfullah.utils.views.MyTextView
             android:id="@+id/appVersionView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -50,7 +50,7 @@
             app:layout_constraintStart_toStartOf="@+id/logo"
             app:layout_constraintTop_toBottomOf="@+id/logo" />
 
-        <com.setel.utils.views.MyTextView
+        <com.sayfullah.utils.views.MyTextView
             android:id="@+id/uatProduction"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -64,7 +64,7 @@
             app:layout_constraintTop_toBottomOf="@+id/logo" />
 
 
-        <com.setel.utils.views.MyTextView
+        <com.sayfullah.utils.views.MyTextView
             android:id="@+id/title"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -99,7 +99,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/title" />
 
-        <com.setel.utils.base.CustomViewPager
+        <com.sayfullah.utils.base.CustomViewPager
             android:id="@+id/splashPager"
             android:layout_width="0dp"
             android:layout_height="@dimen/_180sdp"

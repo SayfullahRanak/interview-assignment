@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.setel.assignment">
+    package="com.sayfullah.assignment">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
@@ -10,7 +10,7 @@
     <uses-feature android:name="android.hardware.camera" />
 
     <application
-        android:name="com.setel.assignment.utils.MyApplication"
+        android:name="com.sevenpeakssoftware.sayfullah.utils.MyApplication"
         android:allowBackup="false"
         android:hardwareAccelerated="false"
         android:icon="@mipmap/ic_launcher"
@@ -25,7 +25,7 @@
         <uses-library android:name="org.apache.http.legacy" android:required="false"/>
 
         <activity
-            android:name="com.setel.assignment.ui.splash.SplashActivity"
+            android:name="com.sayfullah.assignment.ui.splash.SplashActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:theme="@style/transparentBG">
@@ -38,7 +38,7 @@
 
 
         <activity
-            android:name="com.setel.assignment.ui.restaurants.RestaurantDetailActivity"
+            android:name="com.sayfullah.assignment.ui.restaurants.RestaurantDetailActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
 
