@@ -5,10 +5,12 @@ import android.content.Intent
 
 import android.os.Bundle
 import android.view.WindowManager
+import androidx.paging.ExperimentalPagingApi
 
 import com.sayfullah.assignment.BuildConfig
 import com.sayfullah.assignment.R
-import com.sayfullah.utils.base.BaseActivity
+import com.sevenpeakssoftware.sayfullah.ui.carlist.BaseActivity
+import com.sevenpeakssoftware.sayfullah.ui.carlist.view.CarListActivity
 
 import io.reactivex.disposables.Disposable
 import kotlinx.android.synthetic.main.activity_splash.*
@@ -33,16 +35,16 @@ class SplashActivity : BaseActivity(false,true) {
     }
 
 
-//    @ExperimentalPagingApi
+    @ExperimentalPagingApi
     override fun onResume() {
         super.onResume()
 
-//        startActivity(
-//            Intent(
-//                mActivity,
-//                CatListActivity::class.java
-//            ).addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION)
-//        )
+        startActivity(
+            Intent(
+                mActivity,
+                CarListActivity::class.java
+            ).addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION)
+        )
         onBackPressed()
     }
 

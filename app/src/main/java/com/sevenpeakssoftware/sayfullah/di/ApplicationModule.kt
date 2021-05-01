@@ -3,6 +3,7 @@ package com.sevenpeakssoftware.sayfullah.di
 import android.content.Context
 import android.util.Log
 import com.sayfullah.utils.di.RetrofitServiceGenerator
+import com.sevenpeakssoftware.sayfullah.db.AppDatabase
 import com.sevenpeakssoftware.sayfullah.rest.RestService
 import com.sevenpeakssoftware.sayfullah.utils.Cons
 import dagger.Module
@@ -80,11 +81,11 @@ class ApplicationModule {
     }
 
 
-//    @Singleton
-//    @Provides
-//    fun getDataBase(context: Context): AppDatabase {
-//        return AppDatabase.getInstance(context)
-//    }
+    @Singleton
+    @Provides
+    fun getDataBase(context: Context): AppDatabase {
+        return AppDatabase.getInstance(context)
+    }
 
 
 

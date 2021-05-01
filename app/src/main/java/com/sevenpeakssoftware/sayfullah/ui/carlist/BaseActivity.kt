@@ -1,24 +1,27 @@
-package com.sayfullah.utils.base
+package com.sevenpeakssoftware.sayfullah.ui.carlist
 
 import android.annotation.SuppressLint
 import android.app.Activity
 import android.app.ProgressDialog
 import android.content.Context
+import android.content.IntentFilter
 import android.graphics.Color
 import android.os.Build
 import android.os.Bundle
 import android.view.Window
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
+import com.sevenpeakssoftware.sayfullah.utils.NetworkChangeReceiver
 
 
 @SuppressLint("Registered")
 open class BaseActivity(private var isDialog: Boolean = false, var isFullScreen: Boolean = false) :
-    AppCompatActivity() {
+        AppCompatActivity() {
 
     private lateinit var progress: ProgressDialog
     lateinit var mContext: Context
     lateinit var mActivity: Activity
+
     @SuppressLint("NewApi", "ObsoleteSdkInt")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -27,8 +30,8 @@ open class BaseActivity(private var isDialog: Boolean = false, var isFullScreen:
         val window = window
 
         window.setFlags(
-            WindowManager.LayoutParams.FLAG_SECURE,
-            WindowManager.LayoutParams.FLAG_SECURE
+                WindowManager.LayoutParams.FLAG_SECURE,
+                WindowManager.LayoutParams.FLAG_SECURE
         )
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
@@ -39,8 +42,8 @@ open class BaseActivity(private var isDialog: Boolean = false, var isFullScreen:
 
         if (isFullScreen) {
             window.setFlags(
-                WindowManager.LayoutParams.FLAG_FULLSCREEN,
-                WindowManager.LayoutParams.FLAG_FULLSCREEN
+                    WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                    WindowManager.LayoutParams.FLAG_FULLSCREEN
             )
             supportActionBar?.hide()
         }
@@ -55,6 +58,7 @@ open class BaseActivity(private var isDialog: Boolean = false, var isFullScreen:
         }
 
 
+
     }
 
 
@@ -65,5 +69,16 @@ open class BaseActivity(private var isDialog: Boolean = false, var isFullScreen:
             progress.dismiss()
     }
 
+
+
+
+
+    override fun onDestroy() {
+        super.onDestroy()
+    }
+
+    override fun onResume() {
+        super.onResume()
+    }
 
 }

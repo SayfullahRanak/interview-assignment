@@ -28,9 +28,7 @@ class CarMediator(private val mainRepo: MainRepo, private val appDatabase: AppDa
                 return pageKeyData
             }
             else -> {
-                val keyData = pageKeyData as Int
-                keyData
-
+                pageKeyData as Int
             }
         }
 
@@ -41,19 +39,19 @@ class CarMediator(private val mainRepo: MainRepo, private val appDatabase: AppDa
                 // clear all tables in the database
                 if (loadType == LoadType.REFRESH) {
                     appDatabase.getRepoDao().clearRemoteKeys()
-                    appDatabase.getCarModelDao().clearAllCats()
+                    appDatabase.getCarModelDao().clearAllCars()
                 }
-                val prevKey = if (page == DEFAULT_PAGE_INDEX) null else page - 1
-                val nextKey = if (isEndOfList) null else page + 1
-                val keys = response.content.map {
+                val prevKey = null
+                val nextKey = null
+                val keys = response.body()?.content?.map {
                     RemoteKeys(
                         repoId = it.id,
                         prevKey = prevKey,
                         nextKey = nextKey
                     )
                 }
-                appDatabase.getRepoDao().insertAll(keys)
-                appDatabase.getCarModelDao().insertAll(response.content)
+                appDatabase.getRepoDao().insertAll(keys!!)
+                appDatabase.getCarModelDao().insertAll(response.body()?.content!!)
             }
             return MediatorResult.Success(endOfPaginationReached = isEndOfList)
         } catch (exception: IOException) {

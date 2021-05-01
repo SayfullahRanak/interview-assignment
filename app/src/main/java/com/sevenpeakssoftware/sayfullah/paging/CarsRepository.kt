@@ -36,16 +36,16 @@ class CarsRepository(private val mainRepo: MainRepo, private val appDatabase: Ap
      * and returning the results in the form of flow [Flow<PagingData<Cat>>]
      * since the [PagingDataAdapter] accepts the [PagingData] as the source in later stage
      */
-    fun letCatsImagesFlowDb(pagingConfig: PagingConfig = getDefaultPageConfig()): Flow<PagingData<Content>> {
-        if (appDatabase == null) throw IllegalStateException("Database is not initialized")
-
-        val pagingSourceFactory = { appDatabase.getCarModelDao().getAllCatModel() }
-        return Pager(
-            config = pagingConfig,
-            pagingSourceFactory = pagingSourceFactory,
-            remoteMediator = CarMediator(mainRepo, appDatabase)
-        ).flow
-    }
+//    fun letCatsImagesFlowDb(pagingConfig: PagingConfig = getDefaultPageConfig()): Flow<PagingData<Content>> {
+//        if (appDatabase == null) throw IllegalStateException("Database is not initialized")
+//
+//        val pagingSourceFactory = { appDatabase.getCarModelDao().getAllCarModel() }
+//        return Pager(
+//            config = pagingConfig,
+//            pagingSourceFactory = pagingSourceFactory,
+//            remoteMediator = CarMediator(mainRepo, appDatabase)
+//        ).flow
+//    }
 
 
     fun getDefaultPageConfig() :PagingConfig{

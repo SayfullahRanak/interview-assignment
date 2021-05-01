@@ -4,15 +4,16 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 
 @Entity
-data class Content(
+class Content(
+    @PrimaryKey(autoGenerate = true)
+    var dbId:Long,
+    var id: Long,
+    val title: String,
     val changed: Int,
     val content: List<ContentX>,
     val created: Int,
     val dateTime: String,
-    @PrimaryKey
-    val id: Long,
     val image: String,
     val ingress: String,
-    val tags: List<String>,
-    val title: String
+    val tags: List<String>
 )

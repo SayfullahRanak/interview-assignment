@@ -11,13 +11,13 @@ import com.sevenpeakssoftware.sayfullah.data.Content
 interface CarModelDao {
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    suspend fun insertAll(doggoModel: List<Content>)
+    suspend fun insertAll(carModel: List<Content>)
 
     @Query("SELECT * FROM Content")
-    fun getAllCatModel(): PagingSource<Int, Content>
+    fun getAllCarModel(): List<Content>
 
     @Query("DELETE FROM Content")
-    suspend fun clearAllCats()
+    suspend fun clearAllCars()
 
 
 

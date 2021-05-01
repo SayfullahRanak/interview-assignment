@@ -12,7 +12,7 @@ android {
     buildToolsVersion "30.0.3"
     defaultConfig {
         applicationId "com.sevenpeakssoftware.sayfullah"
-        minSdkVersion 21
+        minSdkVersion 22
         targetSdkVersion 30
         versionCode 1
         versionName "V 1.0"
@@ -44,12 +44,12 @@ android {
     productFlavors {
         UAT {
             dimension "flavor"
-            buildConfigField "String", 'SERVER_URL', '"https://www.apphusetreach.no/application/119267"'
+            buildConfigField "String", 'SERVER_URL', '"https://www.apphusetreach.no/"'
 
         }
         Production {
             dimension "flavor"
-            buildConfigField "String", 'SERVER_URL', '"https://www.apphusetreach.no/application/119267"'
+            buildConfigField "String", 'SERVER_URL', '"https://www.apphusetreach.no/"'
         }
     }
 
@@ -90,6 +90,7 @@ dependencies {
 
     //Android KTX
     implementation "androidx.fragment:fragment-ktx:$android_ktx_version"
+//    implementation "androidx.activity:activity-ktx:$android_ktx_version"
 
     // shimmer loader
     implementation 'com.facebook.shimmer:shimmer:0.5.0'

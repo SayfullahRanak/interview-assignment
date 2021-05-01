@@ -7,12 +7,17 @@ import android.content.*
 import android.content.pm.PackageInfo
 import android.content.pm.PackageManager
 import android.graphics.drawable.Drawable
+import android.net.ConnectivityManager
+import android.net.NetworkCapabilities
 import android.net.Uri
+import android.os.Build
 import android.provider.Settings
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import androidx.annotation.RequiresApi
 import androidx.appcompat.widget.AppCompatButton
 import androidx.appcompat.widget.AppCompatImageView
 import androidx.core.content.pm.PackageInfoCompat
@@ -207,8 +212,8 @@ class AppUtils {
                 Alerter.create(mActivity)
                     .setTitle(title ?: (if (isError) "Error" else ""))
                     .setText(msg ?: "")
-                    .setDuration(8000)
-                    .setBackgroundColorRes((if (isError) R.color.orange else R.color.redError))
+                    .setDuration(3000)
+                    .setBackgroundColorRes((if (isError) R.color.mine_shaft else R.color.redError))
                     .show()
         }
 
@@ -240,22 +245,6 @@ class AppUtils {
             //        alertDialog.show();
             return alertDialog
         }
-
-
-
-        fun vasIconURL(productDesc: String?): String {
-            return "https://www.m1payall.com/images/ewallet/media/logos/${productDesc?.toLowerCase()
-                ?.replace(
-                    " ",
-                    "_"
-                )?.replace("`", "")
-            }.png"
-        }
-
-
-
-
-
 
     }
 }

@@ -27,7 +27,7 @@
 
 
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@+id/ivCampaignImage"
+            android:id="@+id/ivCarImage"
             android:layout_width="0dp"
             android:layout_height="300dp"
             android:scaleType="centerCrop"

@@ -24,7 +24,6 @@ class RetrofitServiceGenerator @Inject constructor(
         return Retrofit.Builder()
             .baseUrl(baseURL)
             .addConverterFactory(converter)
-            .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
             .client(httpClient.build())
             .build()
     }

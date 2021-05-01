@@ -3,11 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.sayfullah.assignment">
 
-    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:name="com.sevenpeakssoftware.sayfullah.utils.MyApplication"
@@ -40,10 +41,10 @@
             android:resource="@array/preloaded_fonts" />
 
 
-        <!--        <activity-->
-<!--            android:name="com.sayfullah.assignment.ui.restaurants.RestaurantDetailActivity"-->
-<!--            android:launchMode="singleTask"-->
-<!--            android:screenOrientation="portrait" />-->
+        <activity
+            android:name="com.sevenpeakssoftware.sayfullah.ui.carlist.view.CarListActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
 
     </application>
 

@@ -36,7 +36,8 @@
     <color name="white">#fff</color>
     <color name="white_blur">#6BFFFFFF</color>
     <color name="white_blur_light">#36FFFFFF</color>
-    <color name="black">#000</color>
+    <color name="black">#000000</color>
+    <color name="mine_shaft">#333333</color>
     <color name="mtrl_textinput_default_box_stroke_color" tools:override="true">@color/grayLight
     </color>
     <color name="redError">#DF4141</color>
