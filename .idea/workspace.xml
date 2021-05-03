@@ -9,58 +9,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5499abb1-1ada-4916-8ba0-12e1f855b0b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_3_0_alpha02_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_ktx_1_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_ktx_2_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_paging_paging_common_3_0_0_alpha02.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_paging_paging_common_ktx_3_0_0_alpha02.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_paging_paging_runtime_3_0_0_alpha02_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_2_0_alpha04_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_common_2_3_0_alpha02.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_ktx_2_3_0_alpha02_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_runtime_2_3_0_alpha02_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_sqlite_sqlite_2_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_sqlite_sqlite_framework_2_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/data/Response.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/di/ContextModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/ui/carlist/adapter/CarListAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/ui/carlist/adapter/CarListAdapterPaging.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/ui/carlist/adapter/CarViewHolder.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/ui/carlist/view/CarListActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/ui/carlist/viewmodel/CarRemoteViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/utils/NetworkChangeReceiver.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/utils/ProjectUtils.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_broken_image.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_carlist.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/src/main/java/com/sayfullah/utils/tools/NetworkUtil.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/Cars.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/Cars.app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/utils/Cars.utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/utils/Cars.utils.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/data/Content.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/data/Content.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/db/CarModelDao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/db/CarModelDao.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/di/ApplicationModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/di/ApplicationModule.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/paging/CarMediator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/paging/CarMediator.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/paging/CarsRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/paging/CarsRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/repo/MainRepo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/repo/MainRepo.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/rest/RestService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/rest/RestService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/ui/splash/SplashActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/ui/splash/SplashActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/gradient_bg_black_transparent.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/gradient_bg_black_transparent.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/row_car.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_car.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/utils/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/src/main/java/com/sayfullah/utils/base/BaseActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/ui/carlist/BaseActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/src/main/java/com/sayfullah/utils/di/RetrofitServiceGenerator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/utils/src/main/java/com/sayfullah/utils/di/RetrofitServiceGenerator.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/src/main/java/com/sayfullah/utils/tools/AppUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/utils/src/main/java/com/sayfullah/utils/tools/AppUtils.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/utils/src/main/res/values/colors.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5499abb1-1ada-4916-8ba0-12e1f855b0b0" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +47,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="CARS-SP" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
