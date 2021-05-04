@@ -2,6 +2,7 @@ package com.sevenpeakssoftware.sayfullah.utils
 
 import android.annotation.SuppressLint
 import android.app.Activity
+import android.content.Context
 import android.graphics.Insets
 import android.os.Build
 import android.text.format.DateFormat
@@ -13,23 +14,8 @@ import java.util.*
 class ProjectUtils {
 
     companion object{
-        fun getScreenWidth(activity: Activity) : Int{
-            return if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
-                val windowMetrics =
-                        activity.windowManager.currentWindowMetrics
-                val insets: Insets = windowMetrics.windowInsets
-                        .getInsetsIgnoringVisibility(WindowInsets.Type.systemBars())
-                windowMetrics.bounds.height() - insets.top - insets.bottom
-            } else {
-                val displayMetrics = DisplayMetrics()
-                activity.windowManager.defaultDisplay.getMetrics(displayMetrics)
-                displayMetrics.heightPixels
-            }
-        }
-
-
         @SuppressLint("SimpleDateFormat")
-        fun timeFormateChange(dateTime : String) : String{
+        fun timeFormatChange(context : Context, dateTime : String) : String{
 
             val formatter = SimpleDateFormat("dd.MM.yyyy HH:mm")
             val cal = Calendar.getInstance()
@@ -43,7 +29,7 @@ class ProjectUtils {
 
             var am_pm = ""
 
-            if (!DateFormat.is24HourFormat(MyApplication.appInstance)) {
+            if (!DateFormat.is24HourFormat(context)) {
                 am_pm = if(cal.get(Calendar.AM_PM) == Calendar.AM) " AM" else " PM"
             }
 

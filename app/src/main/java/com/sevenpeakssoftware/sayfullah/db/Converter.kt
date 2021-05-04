@@ -4,6 +4,10 @@ import androidx.room.TypeConverter
 import com.google.gson.Gson
 import com.sevenpeakssoftware.sayfullah.data.ContentX
 
+/**
+ * Created by Md Sayfullah Al Noman Ranak
+ */
+
 class Converter {
 
     @TypeConverter

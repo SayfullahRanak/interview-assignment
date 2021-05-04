@@ -3,6 +3,10 @@ package com.sevenpeakssoftware.sayfullah.data
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
+/**
+ * Created by Md Sayfullah Al Noman Ranak
+ */
+
 @Entity
 class Content(
     @PrimaryKey(autoGenerate = true)

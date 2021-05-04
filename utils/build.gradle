@@ -4,8 +4,8 @@ apply plugin: 'kotlin-android-extensions'
 apply plugin: 'org.jetbrains.kotlin.android.extensions'
 apply plugin: 'kotlin-kapt'
 android {
-    compileSdkVersion 29
-    buildToolsVersion "29.0.2"
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
 
 
     defaultConfig {
@@ -114,4 +114,7 @@ dependencies {
     // Qr code
 
     implementation 'com.google.zxing:core:3.3.3'
+
+    //Android KTX
+    implementation "androidx.fragment:fragment-ktx:$android_ktx_version"
 }

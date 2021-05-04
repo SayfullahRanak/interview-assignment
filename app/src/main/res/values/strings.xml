@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Cars</string>
     <string name="error_in_loading">Error In Loading</string>
+    <string name="splash_screen_title">Android Developer Test</string>
+    <string name="splash_screen_subtitle">Test project: CARS</string>
+    <string name="row_title_test">Q7 - Greatness starts, when you don\'t stop.</string>
+    <string name="row_subtitle_test">29 November 2017, 15:12</string>
+    <string name="row_description_test">The Audi Q7 is the result of an ambitious idea: never cease to improve.</string>
+    <string name="no_item_found">No item found, swipe up to refresh</string>
 </resources>

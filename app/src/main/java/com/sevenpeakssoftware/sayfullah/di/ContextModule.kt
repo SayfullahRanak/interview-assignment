@@ -8,6 +8,10 @@ import dagger.hilt.InstallIn
 import dagger.hilt.android.components.ApplicationComponent
 import javax.inject.Singleton
 
+/**
+ * Created by Md Sayfullah Al Noman Ranak
+ */
+
 @Module
 @InstallIn(ApplicationComponent::class)
 class ContextModule {

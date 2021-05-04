@@ -1,5 +1,9 @@
 package com.sevenpeakssoftware.sayfullah.data
 
+/**
+ * Created by Md Sayfullah Al Noman Ranak
+ */
+
 sealed class Response
 data class Success(val data: Any?) : Response()
 data class Loading(val msg: String?) : Response()

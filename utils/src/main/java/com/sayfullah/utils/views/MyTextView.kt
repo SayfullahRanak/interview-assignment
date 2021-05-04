@@ -26,8 +26,8 @@ class MyTextView : JustifiedTextView {
 
 
     private fun setFont(context: Context, type: Int) {
-        var font = ""
-        font = when (type) {
+//        var font = ""
+        var font = when (type) {
             2 -> Cons.FONT_BOLD
             3 -> Cons.FONT_CREDIT_CARD
             0, 1 -> Cons.FONT_SEMI_BOLD

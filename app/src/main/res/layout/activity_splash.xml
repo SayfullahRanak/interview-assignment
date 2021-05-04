@@ -10,7 +10,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/root"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
         android:fitsSystemWindows="true">
 
 
@@ -20,7 +20,7 @@
             android:layout_height="0dp"
             android:adjustViewBounds="true"
             android:scaleType="centerCrop"
-            android:background="@color/colorPrimary"
+            android:background="@color/blueSevenPeaks"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -33,7 +33,7 @@
             android:layout_marginStart="36dp"
             android:layout_marginTop="32dp"
             android:adjustViewBounds="true"
-            android:src="@drawable/setel_trans"
+            android:src="@drawable/ic_car_view_holder"
             android:tint="@color/white"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -72,9 +72,10 @@
             android:layout_marginEnd="24dp"
             android:gravity="start|center"
             android:paddingTop="8dp"
-            android:text="No More Queuing"
+            android:text="@string/splash_screen_title"
+            android:textStyle="bold"
             android:textColor="@color/white"
-            android:textSize="@dimen/_16ssp"
+            android:textSize="@dimen/_18ssp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -91,9 +92,9 @@
             android:layout_marginEnd="24dp"
             android:gravity="start|center"
             android:paddingTop="8dp"
-            android:text="Pay For Fuel On The Go"
+            android:text="@string/splash_screen_subtitle"
             android:textColor="@color/white"
-            android:textSize="@dimen/_14ssp"
+            android:textSize="@dimen/_12ssp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"

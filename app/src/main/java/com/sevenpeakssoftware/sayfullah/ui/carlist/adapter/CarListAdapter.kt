@@ -1,17 +1,20 @@
-package com.assignment.zalora.ui.catlist.adapter
+package com.sevenpeakssoftware.sayfullah.ui.carlist.adapter
 
 import android.view.ViewGroup
-import androidx.paging.PagingDataAdapter
-import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
+import com.assignment.zalora.ui.catlist.adapter.CarViewHolder
 import com.sayfullah.assignment.R
 import com.sevenpeakssoftware.sayfullah.data.Content
 
-class CarListAdapter() :
+/**
+ * Created by Md Sayfullah Al Noman Ranak
+ */
+
+class CarListAdapter :
         RecyclerView.Adapter<CarViewHolder>(){
 
-    private var items: List<Content>? = ArrayList<Content>()
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CarViewHolder{
+    private var items: List<*>? = ArrayList<Content>()
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CarViewHolder {
         return when(viewType){
             R.layout.row_car -> CarViewHolder.create(
                 parent
@@ -26,21 +29,20 @@ class CarListAdapter() :
 
 
     override fun onBindViewHolder(holder: CarViewHolder, position: Int) {
-        val item = items?.get(position)
-        holder.bindTo(item!!)
+        val item = items?.get(position) as Content
+        holder.bindTo(item)
     }
 
     override fun getItemCount(): Int {
-        val count = items?.size ?: 0
-        return count
+        return items?.size ?: 0
     }
 
-    fun updateList(list: List<Content>){
+    fun <T>updateList(list: List<T>){
         items = list
         notifyDataSetChanged()
     }
 
-    fun getList() : List<Content>{
-        return items!!
-    }
+//    fun getList() : List<*>{
+//        return items!!
+//    }
 }

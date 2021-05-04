@@ -18,6 +18,7 @@ class NetworkUtil {
         const val NETWORK_STATUS_MOBILE = 2
         const val NETWORK_STATUS_ETHERNET = 3
 
+        @Suppress("DEPRECATION")
         fun getConnectivityStatus(context: Context): Int {
 
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
@@ -26,15 +27,19 @@ class NetworkUtil {
                 val capabilities =
                     connectivityManager.getNetworkCapabilities(connectivityManager.activeNetwork)
                 if (capabilities != null) {
-                    if (capabilities.hasTransport(NetworkCapabilities.TRANSPORT_CELLULAR)) {
-                        Log.i("Internet", "NetworkCapabilities.TRANSPORT_CELLULAR")
-                        return TYPE_MOBILE
-                    } else if (capabilities.hasTransport(NetworkCapabilities.TRANSPORT_WIFI)) {
-                        Log.i("Internet", "NetworkCapabilities.TRANSPORT_WIFI")
-                        return TYPE_WIFI
-                    } else if (capabilities.hasTransport(NetworkCapabilities.TRANSPORT_ETHERNET)) {
-                        Log.i("Internet", "NetworkCapabilities.TRANSPORT_ETHERNET")
-                        return TYPE_ETHERNET
+                    when {
+                        capabilities.hasTransport(NetworkCapabilities.TRANSPORT_CELLULAR) -> {
+                            Log.i("Internet", "NetworkCapabilities.TRANSPORT_CELLULAR")
+                            return TYPE_MOBILE
+                        }
+                        capabilities.hasTransport(NetworkCapabilities.TRANSPORT_WIFI) -> {
+                            Log.i("Internet", "NetworkCapabilities.TRANSPORT_WIFI")
+                            return TYPE_WIFI
+                        }
+                        capabilities.hasTransport(NetworkCapabilities.TRANSPORT_ETHERNET) -> {
+                            Log.i("Internet", "NetworkCapabilities.TRANSPORT_ETHERNET")
+                            return TYPE_ETHERNET
+                        }
                     }
                 }
                 return TYPE_NOT_CONNECTED
@@ -42,10 +47,8 @@ class NetworkUtil {
                 val cm: ConnectivityManager =
                     context.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
                 val activeNetwork: NetworkInfo = cm.getActiveNetworkInfo()!!
-                if (null != activeNetwork) {
-                    if (activeNetwork.getType() === ConnectivityManager.TYPE_WIFI) return TYPE_WIFI
-                    if (activeNetwork.getType() === ConnectivityManager.TYPE_MOBILE) return TYPE_MOBILE
-                }
+                if (activeNetwork.getType() == ConnectivityManager.TYPE_WIFI) return TYPE_WIFI
+                if (activeNetwork.getType() == ConnectivityManager.TYPE_MOBILE) return TYPE_MOBILE
                 return TYPE_NOT_CONNECTED
             }
         }

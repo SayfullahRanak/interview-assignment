@@ -12,6 +12,8 @@
 
 
     <color name="darkBlue">#19769f</color>
+    <color name="blueSevenPeaks">#4287f5</color>
+    <color name="blueSevenPeakslight">#00a5eb</color>
     <color name="rightGreen">#30cda4</color>
     <color name="lightGreen">#1dcf85</color>
     <color name="greenBlue">#27cbcc</color>

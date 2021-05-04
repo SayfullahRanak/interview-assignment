@@ -2,6 +2,7 @@ package com.sevenpeakssoftware.sayfullah.ui.splash
 
 import android.annotation.SuppressLint
 import android.content.Intent
+import android.os.Build
 
 import android.os.Bundle
 import android.view.WindowManager
@@ -9,7 +10,7 @@ import androidx.paging.ExperimentalPagingApi
 
 import com.sayfullah.assignment.BuildConfig
 import com.sayfullah.assignment.R
-import com.sevenpeakssoftware.sayfullah.ui.carlist.BaseActivity
+import com.sayfullah.utils.base.BaseActivity
 import com.sevenpeakssoftware.sayfullah.ui.carlist.view.CarListActivity
 
 import io.reactivex.disposables.Disposable
@@ -25,9 +26,15 @@ class SplashActivity : BaseActivity(false,true) {
     private var activityIsActive = false
 
     @SuppressLint("SetTextI18n")
+    @Suppress("DEPRECATION")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        window.setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_RESIZE);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+            window.setDecorFitsSystemWindows(false)
+        }else{
+            window.setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_RESIZE)
+        }
+
 
         setContentView(R.layout.activity_splash)
 

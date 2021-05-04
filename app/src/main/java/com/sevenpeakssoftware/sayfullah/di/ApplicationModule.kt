@@ -10,6 +10,7 @@ import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.android.components.ApplicationComponent
+import okhttp3.Interceptor
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
@@ -17,6 +18,10 @@ import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
 import javax.inject.Named
 import javax.inject.Singleton
+
+/**
+ * Created by Md Sayfullah Al Noman Ranak
+ */
 
 @Module
 @InstallIn(ApplicationComponent::class)
@@ -86,7 +91,5 @@ class ApplicationModule {
     fun getDataBase(context: Context): AppDatabase {
         return AppDatabase.getInstance(context)
     }
-
-
 
 }
