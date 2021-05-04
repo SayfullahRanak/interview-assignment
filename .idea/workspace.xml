@@ -10,45 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5499abb1-1ada-4916-8ba0-12e1f855b0b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_testing_2_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_2_0_4_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_2_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_3_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_4_0_alpha06_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_4_0_alpha06_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_4_0_alpha06_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_rules_1_4_0_alpha06_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_4_0_alpha06_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_services_storage_1_4_0_alpha06_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_8_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_agent_1_8_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_test_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_core_2_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/testutils/CoroutineTestRule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/testutils/LiveDataUtil.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/testutils/TestCoroutineRule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/ui/carlist/viewmodel/CarRemoteViewModelTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/ui/splash/SplashActivityTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/utils/MockInterceptor.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/utils/ProjectUtilsTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/utils/RestServiceTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/utils/TestCons.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_not_found.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_core_1_3_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/ui/carlist/view/CarListActivityTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
@@ -63,82 +26,31 @@
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_3_0_alpha02_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_1_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_1_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_1_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_1_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_ktx_1_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_core_ktx_1_3_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_2_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_ktx_2_2_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_paging_paging_common_3_0_0_alpha02.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_paging_paging_common_ktx_3_0_0_alpha02.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_paging_paging_runtime_3_0_0_alpha02_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_2_0_alpha04_aar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/app/Cars.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/Cars.app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/utils/Cars.utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/utils/Cars.utils.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/ic_launcher-playstore.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/ic_launcher-playstore.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/data/CarBaseResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/data/CarBaseResponse.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/data/Content.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/data/Content.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/data/ContentX.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/data/ContentX.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/data/RemoteKeys.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/data/Response.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/data/Response.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/db/AppDatabase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/db/AppDatabase.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/db/CarModelDao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/db/CarModelDao.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/db/Converter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/db/Converter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/db/RemoteKeysDao.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/di/ApplicationModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/di/ApplicationModule.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/di/ContextModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/di/ContextModule.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/paging/CarMediator.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/paging/CarsRepository.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/repo/MainRepo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/repo/MainRepo.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/rest/RestService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/rest/RestService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/ui/carlist/BaseActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/utils/src/main/java/com/sayfullah/utils/base/BaseActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/ui/carlist/adapter/CarListAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/ui/carlist/adapter/CarListAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/ui/carlist/adapter/CarListAdapterPaging.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/ui/carlist/adapter/CarViewHolder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/ui/carlist/adapter/CarViewHolder.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/ui/carlist/view/CarListActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/ui/carlist/view/CarListActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/ui/carlist/viewmodel/CarRemoteViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/ui/carlist/viewmodel/CarRemoteViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/ui/carlist/viewmodel/CarRemoteViewModelTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/ui/carlist/viewmodel/CarRemoteViewModelTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/ui/splash/SplashActivityTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/utils/MockInterceptor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/testutils/MockInterceptor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/utils/ProjectUtilsTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/utils/ProjectUtilsTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/utils/RestServiceTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/testutils/RestServiceTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/utils/TestCons.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/testutils/TestCons.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/ui/splash/SplashActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/ui/splash/SplashActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/utils/NetworkChangeReceiver.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/utils/ProjectUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/utils/ProjectUtils.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/semi_circle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/setel_trans.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/audi_a1_0.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/audi_q5.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/audi_q7.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_arrow_back.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_broken_image.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_car_view_holder.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_carlist.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_carlist.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/row_car.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_car.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/row_car_loader.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/utils/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/src/main/java/com/sayfullah/utils/tools/NetworkUtil.kt" beforeDir="false" afterPath="$PROJECT_DIR$/utils/src/main/java/com/sayfullah/utils/tools/NetworkUtil.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/src/main/java/com/sayfullah/utils/views/MyButton.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/src/main/java/com/sayfullah/utils/views/MyTextView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/utils/src/main/java/com/sayfullah/utils/views/MyTextView.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/src/main/java/com/sayfullah/utils/views/PrefixCurrencyEditText.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[dcc26a050504]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[4.65_720p_Galaxy_Nexus_API_22]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -162,9 +74,9 @@
         <option value="valueResourceFile" />
         <option value="Kotlin Interface" />
         <option value="Class" />
-        <option value="JUnit4 Test Class" />
         <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -201,7 +113,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/ui" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/ui/carlist" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="multi-representation-preview/Users/mazharulhaque/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.2.0/13e8ff89631c2e101eb6bddd12c2fb4bbd74b15d/appcompat-1.2.0-sources.jar!/androidx/appcompat/widget/AppCompatImageView.java_selected" value="Custom views" />
     <property name="multi-representation-preview/Users/mazharulhaque/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.0.0/2151d26c3b241f0a887f2dadb9ab091649fcf020/recyclerview-1.0.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_selected" value="Custom views" />
@@ -222,13 +134,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.sevenpeakssoftware.sayfullah.testutils" />
       <recent name="com.sevenpeakssoftware.sayfullah.utils" />
       <recent name="com.sevenpeakssoftware.sayfullah.di" />
       <recent name="com.sayfullah.utils.base" />
       <recent name="com.sevenpeakssoftware.sayfullah.ui.carlist" />
-      <recent name="com.sevenpeakssoftware.sayfullah.ui.carlist.adapter" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.sevenpeakssoftware.sayfullah.ui.carlist.view" />
       <recent name="com.sevenpeakssoftware.sayfullah.ui.carlist.viewmodel" />
       <recent name="com.sevenpeakssoftware.sayfullah.utils" />
       <recent name="com.assignment.zalora.ui.catlist" />
@@ -261,7 +174,7 @@
       <recent name="$PROJECT_DIR$/app/src/main/res/xml" />
     </key>
   </component>
-  <component name="RunManager" selected="Android Instrumented Tests.fetchCarList_Error...()">
+  <component name="RunManager" selected="Android Instrumented Tests.isActivityOnView()">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -326,10 +239,10 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Data_Populating_fr...()" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+    <configuration name="fetchCarList_netwo...() (1)" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
       <module name="Cars.app" />
       <option name="TESTING_TYPE" value="3" />
-      <option name="METHOD_NAME" value="Data_Populating_from_api_properly" />
+      <option name="METHOD_NAME" value="fetchCarList_networkstatus_when_no_network" />
       <option name="CLASS_NAME" value="com.sevenpeakssoftware.sayfullah.ui.carlist.viewmodel.CarRemoteViewModelTest" />
       <option name="PACKAGE_NAME" value="" />
       <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
@@ -377,61 +290,10 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="fetchCarList_Error...()" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+    <configuration name="fetchCarList_netwo...() (2)" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
       <module name="Cars.app" />
       <option name="TESTING_TYPE" value="3" />
-      <option name="METHOD_NAME" value="fetchCarList_Error_when_response_code_not_200" />
-      <option name="CLASS_NAME" value="com.sevenpeakssoftware.sayfullah.ui.carlist.viewmodel.CarRemoteViewModelTest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="EXTRA_OPTIONS" value="" />
-      <option name="INCLUDE_GRADLE_EXTRA_OPTIONS" value="true" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
-      <option name="DEBUGGER_TYPE" value="Auto" />
-      <Auto>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-      </Auto>
-      <Hybrid>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-      </Hybrid>
-      <Java />
-      <Native>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-      </Native>
-      <Profilers>
-        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
-        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
-        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
-      </Profilers>
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="fetchCarList_empty...()" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
-      <module name="Cars.app" />
-      <option name="TESTING_TYPE" value="3" />
-      <option name="METHOD_NAME" value="fetchCarList_empty_when_api_response_empty" />
+      <option name="METHOD_NAME" value="fetchCarList_networks_when_no_network" />
       <option name="CLASS_NAME" value="com.sevenpeakssoftware.sayfullah.ui.carlist.viewmodel.CarRemoteViewModelTest" />
       <option name="PACKAGE_NAME" value="" />
       <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
@@ -530,11 +392,62 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="whenFormatIsValid()" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+    <configuration name="isActivityOnView()" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
       <module name="Cars.app" />
       <option name="TESTING_TYPE" value="3" />
-      <option name="METHOD_NAME" value="whenFormatIsValid" />
-      <option name="CLASS_NAME" value="com.sevenpeakssoftware.sayfullah.utils.ProjectUtilsTest" />
+      <option name="METHOD_NAME" value="isActivityOnView" />
+      <option name="CLASS_NAME" value="com.sevenpeakssoftware.sayfullah.ui.carlist.view.CarListActivityTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="INCLUDE_GRADLE_EXTRA_OPTIONS" value="true" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="populateRecycleview()" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="Cars.app" />
+      <option name="TESTING_TYPE" value="3" />
+      <option name="METHOD_NAME" value="populateRecycleview" />
+      <option name="CLASS_NAME" value="com.sevenpeakssoftware.sayfullah.ui.carlist.view.CarListActivityTest" />
       <option name="PACKAGE_NAME" value="" />
       <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
       <option name="EXTRA_OPTIONS" value="" />
@@ -583,11 +496,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Android Instrumented Tests.fetchCarList_Error...()" />
-        <item itemvalue="Android Instrumented Tests.fetchCarList_empty...()" />
+        <item itemvalue="Android Instrumented Tests.isActivityOnView()" />
+        <item itemvalue="Android Instrumented Tests.populateRecycleview()" />
+        <item itemvalue="Android Instrumented Tests.fetchCarList_netwo...() (2)" />
         <item itemvalue="Android Instrumented Tests.fetchCarList_popul...()" />
-        <item itemvalue="Android Instrumented Tests.Data_Populating_fr...()" />
-        <item itemvalue="Android Instrumented Tests.whenFormatIsValid()" />
+        <item itemvalue="Android Instrumented Tests.fetchCarList_netwo...() (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -707,7 +620,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620049747895</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="feat : instrumental test case implemented 50%">
+      <created>1620125392292</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1620125392292</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -728,7 +648,8 @@
     <MESSAGE value="feat : Added entities" />
     <MESSAGE value="feat : finalised row entity design&#10;# row_car.xml&#10;# row_car_loader.xml" />
     <MESSAGE value="feat : primary implementation on paging, db setup for offline support" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat : primary implementation on paging, db setup for offline support" />
+    <MESSAGE value="feat : instrumental test case implemented 50%" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : instrumental test case implemented 50%" />
   </component>
   <component name="WindowStateProjectService">
     <state x="165" y="139" key="#PSD" timestamp="1620056836973">
@@ -759,10 +680,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1620061954683" />
-    <state x="230" y="185" width="600" height="453" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1620104021972">
+    <state x="230" y="185" width="600" height="453" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1620140569362">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="230" y="185" width="600" height="453" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1620104021972" />
+    <state x="230" y="185" width="600" height="453" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1620140569362" />
     <state x="100" y="100" width="1080" height="600" key="AVDManager" timestamp="1620098142004">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
@@ -784,55 +705,56 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="409" y="153" key="AndroidProcessChooserDialog/0.0.1280.800@0.0.1280.800" timestamp="1619858431265" />
-    <state x="126" y="44" width="945" height="726" key="CommitChangelistDialog2" timestamp="1620049747611">
-      <screen x="0" y="23" width="1280" height="729" />
+    <state x="126" y="23" width="945" height="726" key="CommitChangelistDialog2" timestamp="1620125390985">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="126" y="23" width="945" height="726" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1619805446775" />
+    <state x="126" y="23" width="945" height="726" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1620125390985" />
     <state x="126" y="44" key="CommitChangelistDialog2/0.23.1280.728@0.23.1280.728" timestamp="1619801240319" />
     <state x="126" y="44" key="CommitChangelistDialog2/0.23.1280.729@0.23.1280.729" timestamp="1620049747611" />
     <state x="312" y="162" width="656" height="476" key="Downloadable.Font.Dialog.Size" timestamp="1619765405316">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="312" y="162" width="656" height="476" key="Downloadable.Font.Dialog.Size/0.0.1280.800@0.0.1280.800" timestamp="1619765405316" />
-    <state width="1238" height="245" key="GridCell.Tab.0.bottom" timestamp="1620125288123">
+    <state width="1238" height="438" key="GridCell.Tab.0.bottom" timestamp="1620150921711">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="245" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1620125288123" />
+    <state width="1238" height="438" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1620150921711" />
     <state width="1238" height="125" key="GridCell.Tab.0.bottom/0.23.1280.726@0.23.1280.726" timestamp="1619574811267" />
     <state width="1238" height="352" key="GridCell.Tab.0.bottom/0.23.1280.727@0.23.1280.727" timestamp="1619372863984" />
     <state width="1238" height="171" key="GridCell.Tab.0.bottom/0.23.1280.728@0.23.1280.728" timestamp="1619849310138" />
     <state width="1238" height="415" key="GridCell.Tab.0.bottom/0.23.1280.729@0.23.1280.729" timestamp="1620055682288" />
-    <state width="1238" height="227" key="GridCell.Tab.0.bottom/0.23.1280.730@0.23.1280.730" timestamp="1620116745943" />
+    <state width="1238" height="164" key="GridCell.Tab.0.bottom/0.23.1280.730@0.23.1280.730" timestamp="1620146987874" />
     <state width="1238" height="194" key="GridCell.Tab.0.bottom/0.23.1280.732@0.23.1280.732" timestamp="1620123491338" />
-    <state width="1238" height="245" key="GridCell.Tab.0.center" timestamp="1620125288122">
+    <state width="1238" height="438" key="GridCell.Tab.0.center" timestamp="1620150921710">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="245" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1620125288122" />
+    <state width="1238" height="438" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1620150921710" />
     <state width="1238" height="125" key="GridCell.Tab.0.center/0.23.1280.726@0.23.1280.726" timestamp="1619574811266" />
     <state width="1238" height="352" key="GridCell.Tab.0.center/0.23.1280.727@0.23.1280.727" timestamp="1619372863983" />
     <state width="1238" height="171" key="GridCell.Tab.0.center/0.23.1280.728@0.23.1280.728" timestamp="1619849310136" />
     <state width="1238" height="415" key="GridCell.Tab.0.center/0.23.1280.729@0.23.1280.729" timestamp="1620055682287" />
-    <state width="1238" height="227" key="GridCell.Tab.0.center/0.23.1280.730@0.23.1280.730" timestamp="1620116745943" />
+    <state width="1238" height="164" key="GridCell.Tab.0.center/0.23.1280.730@0.23.1280.730" timestamp="1620146987873" />
     <state width="1238" height="194" key="GridCell.Tab.0.center/0.23.1280.732@0.23.1280.732" timestamp="1620123491337" />
-    <state width="1238" height="245" key="GridCell.Tab.0.left" timestamp="1620125288121">
+    <state width="1238" height="438" key="GridCell.Tab.0.left" timestamp="1620150921708">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="245" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1620125288121" />
+    <state width="1238" height="524" key="GridCell.Tab.0.left/0.0.1280.753@0.0.1280.800" timestamp="1620146352999" />
+    <state width="1238" height="438" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1620150921708" />
     <state width="1238" height="125" key="GridCell.Tab.0.left/0.23.1280.726@0.23.1280.726" timestamp="1619574811265" />
     <state width="1238" height="352" key="GridCell.Tab.0.left/0.23.1280.727@0.23.1280.727" timestamp="1619372863982" />
     <state width="1238" height="171" key="GridCell.Tab.0.left/0.23.1280.728@0.23.1280.728" timestamp="1619849310136" />
     <state width="1238" height="415" key="GridCell.Tab.0.left/0.23.1280.729@0.23.1280.729" timestamp="1620055682287" />
-    <state width="1238" height="227" key="GridCell.Tab.0.left/0.23.1280.730@0.23.1280.730" timestamp="1620116745942" />
+    <state width="1238" height="164" key="GridCell.Tab.0.left/0.23.1280.730@0.23.1280.730" timestamp="1620146987872" />
     <state width="1238" height="194" key="GridCell.Tab.0.left/0.23.1280.732@0.23.1280.732" timestamp="1620123491336" />
-    <state width="1238" height="245" key="GridCell.Tab.0.right" timestamp="1620125288122">
+    <state width="1238" height="438" key="GridCell.Tab.0.right" timestamp="1620150921710">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="245" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1620125288122" />
+    <state width="1238" height="438" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1620150921710" />
     <state width="1238" height="125" key="GridCell.Tab.0.right/0.23.1280.726@0.23.1280.726" timestamp="1619574811267" />
     <state width="1238" height="352" key="GridCell.Tab.0.right/0.23.1280.727@0.23.1280.727" timestamp="1619372863984" />
     <state width="1238" height="171" key="GridCell.Tab.0.right/0.23.1280.728@0.23.1280.728" timestamp="1619849310137" />
     <state width="1238" height="415" key="GridCell.Tab.0.right/0.23.1280.729@0.23.1280.729" timestamp="1620055682288" />
-    <state width="1238" height="227" key="GridCell.Tab.0.right/0.23.1280.730@0.23.1280.730" timestamp="1620116745943" />
+    <state width="1238" height="164" key="GridCell.Tab.0.right/0.23.1280.730@0.23.1280.730" timestamp="1620146987873" />
     <state width="1238" height="194" key="GridCell.Tab.0.right/0.23.1280.732@0.23.1280.732" timestamp="1620123491337" />
     <state x="141" y="39" key="SettingsEditor" timestamp="1620056925149">
       <screen x="0" y="0" width="1280" height="800" />
@@ -842,24 +764,24 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="640" height="400" key="XDebugger.FullValuePopup/0.0.1280.800@0.0.1280.800" timestamp="1620107237682" />
-    <state x="417" y="184" key="chooseDestDirectoryDialog" timestamp="1620050343572">
+    <state x="417" y="184" key="chooseDestDirectoryDialog" timestamp="1620148160638">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="417" y="184" key="chooseDestDirectoryDialog/0.0.1280.800@0.0.1280.800" timestamp="1620050343572" />
+    <state x="417" y="184" key="chooseDestDirectoryDialog/0.0.1280.800@0.0.1280.800" timestamp="1620148160638" />
     <state x="417" y="191" key="chooseDestDirectoryDialog/0.23.1280.729@0.23.1280.729" timestamp="1620049994688" />
     <state x="175" y="136" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1620057656110">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="175" y="136" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.800@0.0.1280.800" timestamp="1620057656110" />
-    <state x="296" y="147" width="944" height="554" key="find.popup" timestamp="1620121679174">
+    <state x="296" y="147" width="944" height="554" key="find.popup" timestamp="1620144252958">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="296" y="147" width="944" height="554" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1620121679174" />
+    <state x="296" y="147" width="944" height="554" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1620144252958" />
     <state x="296" y="157" width="944" height="505" key="find.popup/0.23.1280.728@0.23.1280.728" timestamp="1619801245093" />
-    <state x="379" y="129" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1620050343600">
+    <state x="379" y="129" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1620148160710">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="379" y="129" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.0.1280.800@0.0.1280.800" timestamp="1620050343600" />
+    <state x="379" y="129" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.0.1280.800@0.0.1280.800" timestamp="1620148160710" />
     <state x="379" y="141" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.23.1280.729@0.23.1280.729" timestamp="1620049994728" />
     <state x="305" y="185" key="run.anything.popup" timestamp="1619490584717">
       <screen x="0" y="0" width="1280" height="800" />
@@ -880,24 +802,9 @@
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/ui/carlist/viewmodel/CarRemoteViewModelTest.kt</url>
-          <line>59</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/ui/carlist/viewmodel/CarRemoteViewModel.kt</url>
           <line>41</line>
           <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/ui/carlist/viewmodel/CarRemoteViewModelTest.kt</url>
-          <line>55</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/ui/carlist/viewmodel/CarRemoteViewModelTest.kt</url>
-          <line>57</line>
-          <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/ui/carlist/viewmodel/CarRemoteViewModel.kt</url>
@@ -921,17 +828,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/ui/carlist/viewmodel/CarRemoteViewModelTest.kt</url>
-          <line>63</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/ui/carlist/viewmodel/CarRemoteViewModelTest.kt</url>
-          <line>117</line>
+          <line>100</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/ui/carlist/viewmodel/CarRemoteViewModelTest.kt</url>
-          <line>120</line>
+          <line>103</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
@@ -941,8 +843,123 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/ui/carlist/viewmodel/CarRemoteViewModelTest.kt</url>
-          <line>114</line>
+          <line>97</line>
           <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/ui/carlist/viewmodel/CarRemoteViewModelTest.kt</url>
+          <line>136</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/ui/carlist/viewmodel/CarRemoteViewModelTest.kt</url>
+          <line>134</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/ui/carlist/viewmodel/CarRemoteViewModelTest.kt</url>
+          <line>118</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/ui/carlist/viewmodel/CarRemoteViewModel.kt</url>
+          <line>28</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/sevenpeakssoftware/sayfullah/ui/carlist/viewmodel/CarRemoteViewModel.kt</url>
+          <line>29</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/ui/carlist/viewmodel/CarRemoteViewModelTest.kt</url>
+          <line>92</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/ui/carlist/viewmodel/CarRemoteViewModelTest.kt</url>
+          <line>116</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/ui/carlist/viewmodel/CarRemoteViewModelTest.kt</url>
+          <line>122</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/ui/carlist/viewmodel/CarRemoteViewModelTest.kt</url>
+          <line>125</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/ui/carlist/viewmodel/CarRemoteViewModelTest.kt</url>
+          <line>132</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/ui/carlist/viewmodel/CarRemoteViewModelTest.kt</url>
+          <line>130</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/ui/carlist/viewmodel/CarRemoteViewModelTest.kt</url>
+          <line>142</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/ui/carlist/viewmodel/CarRemoteViewModelTest.kt</url>
+          <line>143</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/ui/carlist/viewmodel/CarRemoteViewModelTest.kt</url>
+          <line>148</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/testutils/RestServiceTest.kt</url>
+          <line>44</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/testutils/RestServiceTest.kt</url>
+          <line>38</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/testutils/RestServiceTest.kt</url>
+          <line>46</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/testutils/RestServiceTest.kt</url>
+          <line>47</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/testutils/RestServiceTest.kt</url>
+          <line>30</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/testutils/RestServiceTest.kt</url>
+          <line>34</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/testutils/RestServiceTest.kt</url>
+          <line>31</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/testutils/RestServiceTest.kt</url>
+          <line>48</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/androidTest/java/com/sevenpeakssoftware/sayfullah/ui/carlist/view/CarListActivityTest.kt</url>
+          <line>20</line>
+          <option name="timeStamp" value="52" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

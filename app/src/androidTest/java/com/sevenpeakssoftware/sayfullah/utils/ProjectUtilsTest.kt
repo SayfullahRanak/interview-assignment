@@ -18,6 +18,10 @@ class ProjectUtilsTest {
             MyApplication.appInstance
     }
 
+   /* Dates should use next format:
+    ● If within the current year: “[day] [month], [time]”. For example: “16 March, 12:34”
+    ● If within a different year: “[day] [month] [year], [time]”. For example: “20 December 2017, 21:43”
+    Time should follow system settings for 12h / 24h format, for example, “09:43 PM” vs “21:43”.*/
     @Test
     fun whenFormatIsValid(){
 

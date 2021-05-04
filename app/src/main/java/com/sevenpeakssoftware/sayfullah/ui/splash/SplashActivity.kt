@@ -6,7 +6,6 @@ import android.os.Build
 
 import android.os.Bundle
 import android.view.WindowManager
-import androidx.paging.ExperimentalPagingApi
 
 import com.sayfullah.assignment.BuildConfig
 import com.sayfullah.assignment.R
@@ -41,8 +40,6 @@ class SplashActivity : BaseActivity(false,true) {
         uatProduction.text = BuildConfig.FLAVOR.substring(0, 1).toUpperCase()
     }
 
-
-    @ExperimentalPagingApi
     override fun onResume() {
         super.onResume()
 
